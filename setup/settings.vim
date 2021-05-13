@@ -4,7 +4,8 @@ syntax enable
 set nu rnu
 set hidden
 set encoding=UTF-8 fileencoding=UTF-8
-set pumheight=10 cmdheight=1
+set pumheight=15 pumwidth=15
+set cmdheight=1
 set mouse=a
 set splitbelow splitright
 set conceallevel=0
@@ -29,4 +30,3 @@ endif
 autocmd InsertEnter * norm zz
 
 set wildmode=longest,list,full
-
