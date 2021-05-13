@@ -1,4 +1,5 @@
 set nocompatible
+syntax on
 syntax enable
 set nu rnu
 set hidden
@@ -14,7 +15,7 @@ set noshowmode noswapfile nobackup
 set updatetime=300 timeoutlen=300
 set clipboard=unnamedplus
 set ic nohls
-set cursorline
+set cursorline cursorcolumn
 "set guifont=Nerd\
 autocmd Filetype * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
@@ -25,4 +26,7 @@ if (has("termguicolors"))
 	set termguicolors
 endif
 
+autocmd InsertEnter * norm zz
+
+set wildmode=longest,list,full
 
