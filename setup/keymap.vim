@@ -25,9 +25,9 @@ nmap <M-up> :resize +2<CR>
 nmap <M-down> :resize -2<CR>
 
 
-nnoremap <leader>s :w<CR> " save the file
-nnoremap <leader>q :wq<CR> " save the file and quit
-nnoremap q1 :q!<CR> " quit without saving 
+nnoremap ;w :w<CR>
+nnoremap ;wq :wq<CR>
+nnoremap q1 :q!<CR> 
 
 " Better tabing 
 nmap > >><CR>
