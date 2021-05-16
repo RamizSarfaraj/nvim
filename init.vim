@@ -35,6 +35,9 @@ Plug 'rafi/awesome-vim-colorschemes'
 
 " Rainbow Brackets
 Plug 'luochen1990/rainbow'
+" jedi
+Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build' }
+
 
 "for lsp 
 "Plug 'neovim/nvim-lspconfig'
