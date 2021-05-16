@@ -26,7 +26,7 @@ nmap <M-down> :resize -2<CR>
 
 
 nnoremap ;w :w<CR>
-nnoremap ;wq :wq<CR>
+nnoremap ;q :wq<CR>
 nnoremap q1 :q!<CR> 
 
 " Better tabing 
