@@ -61,5 +61,6 @@ call plug#end()
 source $HOME/.config/nvim/setup/plugins.vim
 "source $HOME/.config/nvim/setup/settings.vim
 luafile $HOME/.config/nvim/lua/settings.lua
-source $HOME/.config/nvim/setup/keymap.vim
+luafile $HOME/.config/nvim/lua/keymappings.lua
+"source $HOME/.config/nvim/setup/keymap.vim
 source $HOME/.config/nvim/setup/coc.vim
