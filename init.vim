@@ -25,11 +25,11 @@ Plug 'junegunn/fzf.vim'
 " intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Airline 
+" Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" vim colorscheme 
+" vim colorscheme
 Plug 'rafi/awesome-vim-colorschemes'
 "Plug 'lifepillar/vim-gruvbox8'
 
@@ -39,7 +39,7 @@ Plug 'luochen1990/rainbow'
 Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build' }
 
 
-"for lsp 
+"for lsp
 "Plug 'neovim/nvim-lspconfig'
 "Plug 'nvim-lua/completion-nvim'
 "Plug 'nvim-lua/diagnostic-nvim'
@@ -59,6 +59,7 @@ call plug#end()
 
 " sourcing the files
 source $HOME/.config/nvim/setup/plugins.vim
-source $HOME/.config/nvim/setup/settings.vim
+"source $HOME/.config/nvim/setup/settings.vim
+luafile $HOME/.config/nvim/lua/settings.lua
 source $HOME/.config/nvim/setup/keymap.vim
 source $HOME/.config/nvim/setup/coc.vim
