@@ -64,3 +64,5 @@ luafile $HOME/.config/nvim/lua/settings.lua
 luafile $HOME/.config/nvim/lua/keymappings.lua
 "source $HOME/.config/nvim/setup/keymap.vim
 source $HOME/.config/nvim/setup/coc.vim
+
+
