@@ -57,5 +57,5 @@ vim.cmd([[autocmd BufWritePre * :%s/\s\+$//e]])
 -- color columns
 vim.cmd([[autocmd BufNewFile,BufReadPost *.js,*.ts,*.tsx setl colorcolumn=80,120]])
 
---vim.cmd([[autocmd InserEnter * norm zz]]) --automatically center the screen upon enterring insert mode
+vim.cmd([[autocmd InsertEnter * norm zz]]) --automatically center the screen upon enterring insert mode
 
