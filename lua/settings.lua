@@ -29,6 +29,7 @@ vim.wo.cursorcolumn = true
 vim.signcolumn = "yes"
 vim.o.hidden = true
 vim.o.showtabline = 2
+vim.o.clipboard="unnamedplus"
 
 vim.o.incsearch = true
 vim.o.hlsearch = false
