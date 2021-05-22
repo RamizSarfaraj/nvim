@@ -34,10 +34,10 @@ Plug 'rafi/awesome-vim-colorschemes'
 "" Rainbow Brackets
 Plug 'luochen1990/rainbow'
 
-""for lsp
-""Plug 'neovim/nvim-lspconfig'
-""Plug 'nvim-lua/completion-nvim'
-""Plug 'nvim-lua/diagnostic-nvim'
+"for lsp
+"Plug 'neovim/nvim-lspconfig'
+"Plug 'nvim-lua/completion-nvim'
+"Plug 'nvim-lua/diagnostic-nvim'
 
 
 "" markdown
@@ -53,8 +53,11 @@ call plug#end()
 
 " sourcing the files
 source $HOME/.config/nvim/setup/plugins.vim
-"source $HOME/.config/nvim/setup/coc.vim
+source $HOME/.config/nvim/setup/coc.vim
 
 luafile $HOME/.config/nvim/lua/settings.lua
 luafile $HOME/.config/nvim/lua/keymappings.lua
 luafile $HOME/.config/nvim/lua/telescope-nvim.lua
+"luafile $HOME/.config/nvim/lua/lspconfig.lua
+"luafile $HOME/.config/nvim/lua/completion.lua
+
