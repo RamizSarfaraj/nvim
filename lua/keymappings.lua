@@ -19,8 +19,8 @@ map("n", "<C-H>", "<C-W>h")
 map("n", "<C-L>", "<C-W>l")
 
 -- split
-map("n", "fv", ":vsp<CR>")
-map("n", "fh", ":sp<CR>")
+map("n", "<M-v>", ":vsp<CR>")
+map("n", "<M-h>", ":sp<CR>")
 
 -- resize split window
 map("n", "<C-right>", ":vertical resize +2<CR>")
