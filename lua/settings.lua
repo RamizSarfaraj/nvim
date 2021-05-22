@@ -1,14 +1,17 @@
 -- getmetatable("").__index = function(str, i) return string.sub(str, i, i) end
 --vim.o.termiguicolors = true
 
+
 vim.cmd("colorscheme gruvbox")
 vim.cmd("syntax on")
+vim.cmd("filetype plugin indent on")
+--vim.cmd("set indent")
 vim.o.mouse = "a"
 vim.o.visualbell = true
 vim.o.errorbells = false
 vim.o.showcmd = true
 
-vim.o.showmode = false
+vim.o.showmode = true
 vim.o.swapfile = false
 vim.o.backup = false
 vim.o.ttyfast = true
@@ -29,7 +32,7 @@ vim.wo.cursorcolumn = true
 vim.signcolumn = "yes"
 vim.o.hidden = true
 vim.o.showtabline = 2
-vim.o.clipboard="unnamedplus"
+vim.o.clipboard="unnamed,unnamedplus"
 
 vim.o.incsearch = true
 vim.o.hlsearch = false
@@ -60,3 +63,5 @@ vim.cmd([[autocmd BufNewFile,BufReadPost *.js,*.ts,*.tsx setl colorcolumn=80,120
 
 vim.cmd([[autocmd InsertEnter * norm zz]]) --automatically center the screen upon enterring insert mode
 
+--highlight while yanking
+vim.cmd 'au TextYankPost * lua vim.highlight.on_yank {on_visual = true}'

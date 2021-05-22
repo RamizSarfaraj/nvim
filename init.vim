@@ -6,39 +6,33 @@ endif
 
 " NERDTree and NERDCommenter
 Plug 'scrooloose/NERDTree'
+" icons
+Plug 'ryanoasis/vim-devicons'
 " better commenting
 Plug 'preservim/nerdcommenter'
 
-" lf file manager in vim
-"Plug 'ptzz/lf.vim'
-" dependency
-Plug 'voldikss/vim-floaterm'
-"Plug 'mcchrish/nnn.vim'
 
 " Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
 
-" FZF file search
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 
 " intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" jedi
+"Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build' }
 
-" Airline
+"
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
-
-" vim colorscheme
+"" vim colorscheme
 Plug 'rafi/awesome-vim-colorschemes'
-"Plug 'lifepillar/vim-gruvbox8'
 
 " Rainbow Brackets
 Plug 'luochen1990/rainbow'
-" jedi
-Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build' }
-
 
 "for lsp
 "Plug 'neovim/nvim-lspconfig'
@@ -50,8 +44,6 @@ Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
-" icons
-Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
@@ -64,3 +56,4 @@ source $HOME/.config/nvim/setup/coc.vim
 
 luafile $HOME/.config/nvim/lua/settings.lua
 luafile $HOME/.config/nvim/lua/keymappings.lua
+luafile $HOME/.config/nvim/lua/telescope-nvim.lua

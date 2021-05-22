@@ -1,11 +1,18 @@
 
+
+" Find files using Telescope command-line sugar.
+nnoremap <C-p> <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
 " move between buffers
 nnoremap <TAB> :bNext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 " Airline "
 let g:airline_powerline_fonts=0
 let g:airline_theme='one'
-let g:airlie#extension#tabline#enabled=0 
+let g:airlie#extension#tabline#enabled=0
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
