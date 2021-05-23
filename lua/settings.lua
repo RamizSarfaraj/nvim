@@ -2,7 +2,13 @@
 --vim.o.termiguicolors = true
 
 
+vim.o.termguicolors = true -- set term gui colors most terminals support this
 vim.cmd("colorscheme gruvbox")
+vim.g.gruvbox_bold = 1
+vim.g.gruvbox_italic = 1
+vim.g.gruvbox_contrast_dark = 'hard'
+vim.g.gruvbox_transparent_bg = 1
+vim.g.gruvbox_hls_cursor = 'green'
 vim.cmd("syntax on")
 vim.cmd("filetype plugin indent on")
 --vim.cmd("set encoding='UTF-8'")
@@ -11,7 +17,7 @@ vim.o.title = false
 vim.o.mouse = "a"
 vim.o.visualbell = true
 vim.o.errorbells = false
-vim.o.showcmd = true
+vim.o.showcmd = false
 
 vim.o.showmode = true
 vim.o.swapfile = false
@@ -29,7 +35,7 @@ vim.o.backspace = "indent,eol,start"
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.wo.wrap = false
-vim.cmd("set nuw=2") -- number width
+vim.wo.numberwidth = 2
 vim.wo.cursorline = true
 vim.wo.cursorcolumn = true
 vim.signcolumn = "yes"
@@ -49,7 +55,6 @@ vim.bo.smartindent = true
 vim.cmd("set ts=4")
 vim.cmd("set sw=4")
 vim.o.shiftround = true
-vim.o.termguicolors = true -- set term gui colors most terminals support this
 
 vim.o.scrolloff = 5
 vim.cmd("set inccommand=split") -- make substitution work in realtime
