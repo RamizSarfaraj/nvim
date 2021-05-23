@@ -28,8 +28,10 @@ Plug 'nvim-telescope/telescope.nvim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 """ vim colorscheme
-Plug 'rafi/awesome-vim-colorschemes'
+Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
 
 "" Rainbow Brackets
 Plug 'luochen1990/rainbow'
@@ -60,4 +62,5 @@ luafile $HOME/.config/nvim/lua/keymappings.lua
 luafile $HOME/.config/nvim/lua/telescope-nvim.lua
 "luafile $HOME/.config/nvim/lua/lspconfig.lua
 "luafile $HOME/.config/nvim/lua/completion.lua
+
 
