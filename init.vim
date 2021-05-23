@@ -1,3 +1,6 @@
+
+let mapleader = " "
+
 if has("nvim")
     call plug#begin('~/.config/nvim/autoload/plugged') " for neovim
 else
@@ -5,23 +8,27 @@ else
 endif
 
 "" NERDTree and NERDCommenter
-Plug 'scrooloose/NERDTree'
+"Plug 'scrooloose/NERDTree'
 "" icons
-Plug 'ryanoasis/vim-devicons'
+"Plug 'ryanoasis/vim-devicons'
+" requires
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
+
+
+
 "" better commenting
 Plug 'preservim/nerdcommenter'
 
 
-"" Auto pairs for '(' '[' '{'
+" Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
 
 
 "" intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"" jedi
-""Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build' }
 
-""
+" telescope [fuzzy file finder or alternate fzf with better colors]
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -29,17 +36,12 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-""" vim colorscheme
+" vim colorscheme
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 
-"" Rainbow Brackets
+" Rainbow Brackets
 Plug 'luochen1990/rainbow'
-
-"for lsp
-"Plug 'neovim/nvim-lspconfig'
-"Plug 'nvim-lua/completion-nvim'
-"Plug 'nvim-lua/diagnostic-nvim'
 
 
 "" markdown
