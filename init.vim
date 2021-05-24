@@ -1,4 +1,3 @@
-
 let mapleader = " "
 
 if has("nvim")
