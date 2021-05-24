@@ -10,7 +10,7 @@ map("n", ";", ":")      -- use ; to activate command mode
 
 map("n", ";w", ":w<CR>") -- use ;w to save
 map("n", ";q", ":wq<CR>") -- use ;w to save and quit
-map("n", "q1", ":q!<CR>") -- use ;w to quit without saving
+map("n", ";1", ":q!<CR>") -- use ;w to quit without saving
 
 -- Better split switching
 map("n", "<C-J>", "<C-W>j")
