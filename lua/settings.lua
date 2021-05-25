@@ -19,7 +19,7 @@ vim.o.visualbell = true
 vim.o.errorbells = false
 vim.o.showcmd = false
 
-vim.o.showmode = true
+vim.o.showmode = false
 vim.o.swapfile = false
 vim.o.backup = false
 vim.o.ttyfast = true
