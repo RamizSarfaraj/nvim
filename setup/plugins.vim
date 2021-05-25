@@ -11,7 +11,7 @@ nnoremap <TAB> :bNext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 " Airline "
 let g:airline_powerline_fonts=0
-let g:airline_theme='gruvbox'
+let g:airline_theme='dracula'
 let g:airlie#extension#tabline#enabled=0
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}

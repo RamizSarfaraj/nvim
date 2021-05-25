@@ -3,7 +3,8 @@
 
 
 vim.o.termguicolors = true -- set term gui colors most terminals support this
-vim.cmd("colorscheme gruvbox")
+vim.o.background = 'dark'
+vim.cmd("colorscheme dracula")
 vim.g.gruvbox_bold = 1
 vim.g.gruvbox_italic = 1
 vim.g.gruvbox_contrast_dark = 'hard'
