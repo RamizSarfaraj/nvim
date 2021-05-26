@@ -36,7 +36,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " vim colorscheme
-Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim'
 " Rainbow Brackets

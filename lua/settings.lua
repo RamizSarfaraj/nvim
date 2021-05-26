@@ -4,12 +4,13 @@
 
 vim.o.termguicolors = true -- set term gui colors most terminals support this
 vim.o.background = 'dark'
-vim.cmd("colorscheme dracula")
+vim.cmd("colorscheme gruvbox")
+--vim.cmd("colorscheme dracula")
 vim.g.gruvbox_bold = 1
 vim.g.gruvbox_italic = 1
 vim.g.gruvbox_contrast_dark = 'hard'
 vim.g.gruvbox_transparent_bg = 1
-vim.g.gruvbox_hls_cursor = 'green'
+vim.g.gruvbox_hls_cursor = 'orange'
 vim.cmd("syntax on")
 vim.cmd("filetype plugin indent on")
 --vim.cmd("set encoding='UTF-8'")
