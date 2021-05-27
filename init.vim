@@ -6,48 +6,48 @@ else
     call plug#begin('~/.vim/autoload/plugged') " for vim
 endif
 
-"" NERDTree and NERDCommenter
+" NERDTree and NERDCommenter
 "Plug 'scrooloose/NERDTree'
-"" icons
+" icons
 "Plug 'ryanoasis/vim-devicons'
-" requires
+"requires
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 
 
 
-"" better commenting
+""" better commenting
 Plug 'preservim/nerdcommenter'
 
 
-" Auto pairs for '(' '[' '{'
+"" Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
 
 
-"" intellisense
+""" intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" telescope [fuzzy file finder or alternate fzf with better colors]
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+"" telescope [fuzzy file finder or alternate fzf with better colors]
+"Plug 'nvim-lua/popup.nvim'
+"Plug 'nvim-lua/plenary.nvim'
+"Plug 'nvim-telescope/telescope.nvim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" vim colorscheme
+"" vim colorscheme
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim'
-" Rainbow Brackets
+"" Rainbow Brackets
 Plug 'luochen1990/rainbow'
 
 
-"" markdown
+""" markdown
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
-
 call plug#end()
+
 
 " plugins
 "luafile $HOME/.config/nvim/lua/plugins.lua

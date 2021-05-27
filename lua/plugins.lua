@@ -35,57 +35,46 @@ return require("packer").startup(
         use "wbthomason/packer.nvim"
 
 
-        -- NERDTree and NERDCommenter
-        use "scrooloose/NERDTree"
-        --icons
-        use "ryanoasis/vim-devicons"
-        --better commenting
-        use "preservim/nerdcommenter"
+
+		-- NERDTree and NERDCommenter
+		--use 'scrooloose/NERDTree'
+		-- icons
+		--use 'ryanoasis/vim-devicons'
+		--requires
+		use 'kyazdani42/nvim-web-devicons' -- for file icons
+		use 'kyazdani42/nvim-tree.lua'
 
 
-        --Auto pairs for '(' '[' '{'
-        use "jiangmiao/auto-pairs"
 
-        --intellisense
-        -- use 'neoclide/coc.nvim', {'branch': 'release'}
-        --jedi
-        --"use 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build' }
-
-        use 'nvim-lua/popup.nvim'
-        use 'nvim-lua/plenary.nvim'
-        use 'nvim-telescope/telescope.nvim'
-
-        use 'vim-airline/vim-airline'
-        use 'vim-airline/vim-airline-themes'
-        -- vim colorscheme
-        use 'rafi/awesome-vim-colorschemes'
-
-        -- Rainbow Brackets
-        use 'luochen1990/rainbow'
-        -- for lsp
-        --use 'neovim/nvim-lspconfig'
-        --use 'nvim-lua/completion-nvim'
-        --use 'nvim-lua/diagnostic-nvim'
+		-- better commenting
+		use 'preservim/nerdcommenter'
 
 
--- markdown
-        use 'godlygeek/tabular'
-        use 'plasticboy/vim-markdown'
+		--Auto pairs for '(' '[' '{'
+		use 'jiangmiao/auto-pairs'
 
 
-        require_plugin("NERDTree")
-        require_plugin("vim-devicons")
-        require_plugin("nerdcommenter")
-        require_plugin("auto-pairs")
-        require_plugin("popup.nvim")
-        require_plugin("plenary.nvim")
-        require_plugin("telescope.nvim")
-        require_plugin("vim-airline")
-        require_plugin("vim-airline-themes")
-        require_plugin("awesome-vim-colorschemes")
-        require_plugin("rainbow")
-        require_plugin("tabular")
-        require_plugin("vim-markdown")
+		-- intellisense
+		use 'neoclide/coc.nvim', {'branch': 'release'}
+
+		-- telescope [fuzzy file finder or alternate fzf with better colors]
+		--use 'nvim-lua/popup.nvim'
+		--use 'nvim-lua/plenary.nvim'
+		--use 'nvim-telescope/telescope.nvim'
+
+		use 'vim-airline/vim-airline'
+		use 'vim-airline/vim-airline-themes'
+
+		-- vim colorscheme
+		use 'morhetz/gruvbox'
+		use 'dracula/vim'
+		-- Rainbow Brackets
+		use 'luochen1990/rainbow'
+
+
+		-- markdown
+		use 'godlygeek/tabular'
+		use 'plasticboy/vim-markdown'
 
 
 end
