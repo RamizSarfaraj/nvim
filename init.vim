@@ -57,10 +57,10 @@ call plug#end()
 source $HOME/.config/nvim/setup/plugins.vim
 source $HOME/.config/nvim/setup/coc.vim
 
-luafile $HOME/.config/nvim/lua/settings.lua
-luafile $HOME/.config/nvim/lua/keymappings.lua
+
+" luafiles
+luafile $HOME/.config/nvim/lua/general/settings.lua
+luafile $HOME/.config/nvim/lua/general/keymappings.lua
 luafile $HOME/.config/nvim/lua/telescope-nvim.lua
-"luafile $HOME/.config/nvim/lua/lspconfig.lua
-"luafile $HOME/.config/nvim/lua/completion.lua
 "
 
