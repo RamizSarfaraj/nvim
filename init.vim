@@ -61,6 +61,6 @@ source $HOME/.config/nvim/setup/coc.vim
 " luafiles
 luafile $HOME/.config/nvim/lua/general/settings.lua
 luafile $HOME/.config/nvim/lua/general/keymappings.lua
-luafile $HOME/.config/nvim/lua/telescope-nvim.lua
+luafile $HOME/.config/nvim/lua/plug-sets/telescope-nvim.lua
 "
 
