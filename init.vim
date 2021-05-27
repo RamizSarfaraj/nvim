@@ -54,8 +54,8 @@ call plug#end()
 
 
 " sourcing the files
-source $HOME/.config/nvim/setup/plugins.vim
-source $HOME/.config/nvim/setup/coc.vim
+source $HOME/.config/nvim/vimscript/plugins.vim
+source $HOME/.config/nvim/vimscript/coc.vim
 
 
 " luafiles
