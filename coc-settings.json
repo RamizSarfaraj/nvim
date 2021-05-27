@@ -7,7 +7,7 @@
           "ignoredRootPaths": ["~"]
         }
     },
-  
+
   "jedi.enable": true,
   "jedi.startupMessage": false,
   "jedi.markupKindPreferred": "plaintext",
@@ -31,5 +31,6 @@
     ".venv",
     "__pycache__",
     "venv"
-  ]
+  ],
+  "clangd.path": "/home/ramiz/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd"
 }
