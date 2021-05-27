@@ -33,18 +33,11 @@ vim.o.autowrite = true
 vim.o.autoread = true
 vim.o.updatetime = 300
 vim.o.cmdheight = 1
-vim.o.shortmess = vim.o.shortmess .. "c"
-
 vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.backspace = "indent,eol,start"
-vim.wo.number = true
-vim.wo.relativenumber = true
-vim.wo.wrap = false
-vim.wo.numberwidth = 2
-vim.wo.cursorline = true
+vim.o.shortmess = vim.o.shortmess .. "c"
 vim.wo.cursorcolumn = true
-vim.signcolumn = "yes"
 vim.o.hidden = true
 vim.o.showtabline = 2
 vim.o.clipboard="unnamed,unnamedplus"
@@ -54,15 +47,22 @@ vim.o.hlsearch = false
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
+vim.o.scrolloff = 5
+vim.o.shiftround = true
+
+vim.wo.number = true
+vim.wo.relativenumber = true
+vim.wo.wrap = false
+vim.wo.numberwidth = 2
+vim.wo.cursorline = true
+
 vim.bo.expandtab = true
 vim.bo.tabstop = 4
 vim.bo.shiftwidth = 4
 vim.bo.smartindent = true
 vim.cmd("set ts=4")
 vim.cmd("set sw=4")
-vim.o.shiftround = true
 
-vim.o.scrolloff = 5
 vim.cmd("set inccommand=split") -- make substitution work in realtime
 vim.cmd([[set list listchars=tab:\ \ ,trail:·,nbsp:·]])
 vim.cmd([[set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store,*/node_modules/*]])
