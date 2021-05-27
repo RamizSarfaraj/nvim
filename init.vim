@@ -6,15 +6,6 @@ else
     call plug#begin('~/.vim/autoload/plugged') " for vim
 endif
 
-" NERDTree and NERDCommenter
-"Plug 'scrooloose/NERDTree'
-" icons
-"Plug 'ryanoasis/vim-devicons'
-"requires
-Plug 'kyazdani42/nvim-web-devicons' " for file icons
-Plug 'kyazdani42/nvim-tree.lua'
-
-
 
 """ better commenting
 Plug 'preservim/nerdcommenter'
