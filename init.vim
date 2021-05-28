@@ -49,6 +49,7 @@ luafile $HOME/.config/nvim/lua/general/settings.lua
 luafile $HOME/.config/nvim/lua/general/colorcheme.lua
 luafile $HOME/.config/nvim/lua/general/keymappings.lua
 
+
 " lua plugins for autopair and color highlights (these work without any setup)
 lua << EOF
 require[[nvim-autopairs]].setup()
@@ -56,6 +57,8 @@ require[[colorizer]].setup()
 EOF
 
 " other major lua plugin setups
+luafile $HOME/.config/nvim/lua/commenter/init.lua
+luafile $HOME/.config/nvim/lua/markdown/init.lua
 luafile $HOME/.config/nvim/lua/telescope-nvim/init.lua
 luafile $HOME/.config/nvim/lua/nvimTree/init.lua
 luafile $HOME/.config/nvim/lua/statusline/init.lua
@@ -63,4 +66,3 @@ luafile $HOME/.config/nvim/lua/statusline/init.lua
 
 " coc.nvim and other settings.
 source $HOME/.config/nvim/after/plugin/coc.vim
-source $HOME/.config/nvim/after/plugin/plugins.vim
