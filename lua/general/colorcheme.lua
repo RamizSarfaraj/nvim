@@ -13,7 +13,7 @@ vim.o.background = 'dark'
 --vim.cmd("colorscheme gruvbox")
 
 
-vim.g.material_style = 'deep ocean'
+vim.g.material_style = 'darker'
 vim.g.material_italic_comments = true
 vim.g.material_italic_keywords = true
 vim.g.material_italic_functions = true
