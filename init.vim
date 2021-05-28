@@ -36,6 +36,7 @@ endif
     Plug 'gruvbox-community/gruvbox'
     Plug 'marko-cerovac/material.nvim'
     Plug 'folke/tokyonight.nvim'
+    Plug 'embark-theme/vim', { 'as': 'embark' }
 
     " markdown
     Plug 'godlygeek/tabular'
