@@ -1,3 +1,4 @@
+-- don't name the folder same as the plugin name itself or wasted 3 hours for nothing.
 
 require('telescope').setup{
   defaults = {
