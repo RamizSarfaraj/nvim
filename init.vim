@@ -14,13 +14,15 @@ endif
     Plug 'windwp/nvim-autopairs'
 
     " better commenting
-    Plug 'preservim/nerdcommenter'
+    Plug 'terrortylor/nvim-comment'
 
     " status lien
     Plug 'glepnir/galaxyline.nvim'
 
     " intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " snippets
+    Plug 'honza/vim-snippets'
 
     " telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
     Plug 'nvim-lua/popup.nvim'
@@ -29,7 +31,6 @@ endif
 
     " colorizer
     Plug 'norcalli/nvim-colorizer.lua'
-
 
     " vim colorscheme
     Plug 'gruvbox-community/gruvbox'
