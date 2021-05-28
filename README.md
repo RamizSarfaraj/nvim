@@ -6,7 +6,7 @@
 **Ultimate plan is to fully switch to lua configuration.**
 
 
-* Using: Vim-plug plguin manager.
+* Using: [Vim-plug](https://github.com/junegunn/vim-plug) plguin manager.
 
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
