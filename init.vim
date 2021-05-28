@@ -46,6 +46,7 @@ call plug#end()
 
 " settings and keymappings first to load
 luafile $HOME/.config/nvim/lua/general/settings.lua
+luafile $HOME/.config/nvim/lua/general/colorcheme.lua
 luafile $HOME/.config/nvim/lua/general/keymappings.lua
 
 " lua plugins for autopair and color highlights (these work without any setup)
