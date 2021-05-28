@@ -7,9 +7,10 @@ vim.cmd("filetype plugin indent on")
 vim.o.termguicolors = true -- set term gui colors most terminals support this
 vim.o.background = 'dark'
 
+--require[[palenight]]
 vim.cmd("colorscheme gruvbox")
---vim.cmd("colorscheme dracula")
-vim.g.gruvbox_bold = 1
+----vim.cmd("colorscheme dracula")
+vim.g.gruvbox_bold = 0
 vim.g.gruvbox_italic = 1
 vim.g.gruvbox_contrast_dark = 'hard'
 vim.g.gruvbox_transparent_bg = 1

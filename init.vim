@@ -18,7 +18,7 @@ Plug 'jiangmiao/auto-pairs'
 """ intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-"" telescope [fuzzy file finder or alternate fzf with better colors]
+"" telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
