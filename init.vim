@@ -25,7 +25,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim"
+Plug 'nvim-telescope/telescope.nvim'
 
 " colorizer
 Plug 'norcalli/nvim-colorizer.lua'
@@ -34,7 +34,6 @@ Plug 'norcalli/nvim-colorizer.lua'
 " vim colorscheme
 Plug 'gruvbox-community/gruvbox'
 Plug 'dracula/vim'
-Plug 'shaunsingh/moonlight.nvim'
 
 " markdown
 Plug 'godlygeek/tabular'
@@ -43,29 +42,29 @@ Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 
-" plugins
-"luafile $HOME/.config/nvim/lua/plugins.lua
 
 
-" sourcing the files
-source $HOME/.config/nvim/vimscript/plugins.vim
-source $HOME/.config/nvim/vimscript/coc.vim
 
+lua << EOF
+require[[nvim-autopairs]].setup()
+require[[colorizer]].setup()
+
+--
+--require[[general]]
+--require[[telescope]]
+--require[[nvim-tree]]
+--require[[statusline]]
+EOF
 
 " luafiles
 luafile $HOME/.config/nvim/lua/general/settings.lua
 luafile $HOME/.config/nvim/lua/general/keymappings.lua
-"luafile $HOME/.config/nvim/lua/plug-sets/telescope-nvim.lua
+luafile $HOME/.config/nvim/lua/telescope/init.lua
+luafile $HOME/.config/nvim/lua/nvim-tree/init.lua
+luafile $HOME/.config/nvim/lua/statusline/init.lua
 
 
-lua << EOF
--- plugins w/o any configurations
-require[[nvim-autopairs]].setup()
-require[[colorizer]].setup()
 
--- plugins with configurations
-require[[nvim-tree]]
-require[[statusline]]
-require[[telescope]]
-EOF
 
+source $HOME/.config/nvim/after/plugin/plugins.vim
+source $HOME/.config/nvim/after/plugin/coc.vim

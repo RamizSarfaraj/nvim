@@ -8,8 +8,6 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " move between buffers
 nnoremap <TAB> :bNext<CR>
 nnoremap <S-TAB> :bprevious<CR>
-
-
 """"""""""""""""""""""""""""""""""""""""
 " NERDCommenter
 """"""""""""""""""""""""""""""""""""""""
