@@ -3,4 +3,4 @@
 not fully polished yet.
 Lua transition phase.
 
-[Screenshot](https://github.com/RamizSarfaraj/nvim/blob/master/Image/Image.png)
+![Screenshot](https://github.com/RamizSarfaraj/nvim/blob/master/Image/Image.png)
