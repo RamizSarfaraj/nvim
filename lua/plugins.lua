@@ -77,6 +77,5 @@ return require("packer").startup(
 		use 'plasticboy/vim-markdown'
 
 
-end
-)
+end)
 
