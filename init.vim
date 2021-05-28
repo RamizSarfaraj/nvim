@@ -6,39 +6,39 @@ else
     call plug#begin("~/.vim/autoload/plugged") " for vim
 endif
 
-" file manager
-Plug 'kyazdani42/nvim-tree.lua'
-Plug 'kyazdani42/nvim-web-devicons'
+    " file tree & icons for file tree
+    Plug 'kyazdani42/nvim-tree.lua'
+    Plug 'kyazdani42/nvim-web-devicons'
 
-"auto open and close pairs
-Plug 'windwp/nvim-autopairs'
+    "auto open and close pairs
+    Plug 'windwp/nvim-autopairs'
 
-" better commenting
-Plug 'preservim/nerdcommenter'
+    " better commenting
+    Plug 'preservim/nerdcommenter'
 
-" status lien
-Plug 'glepnir/galaxyline.nvim'
+    " status lien
+    Plug 'glepnir/galaxyline.nvim'
 
-" intellisense
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " intellisense
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+    " telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
+    Plug 'nvim-lua/popup.nvim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
 
-" colorizer
-Plug 'norcalli/nvim-colorizer.lua'
+    " colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
 
 
-" vim colorscheme
-Plug 'gruvbox-community/gruvbox'
-Plug 'dracula/vim'
-Plug 'marko-cerovac/material.nvim'
+    " vim colorscheme
+    Plug 'gruvbox-community/gruvbox'
+    Plug 'dracula/vim'
+    Plug 'marko-cerovac/material.nvim'
 
-" markdown
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
+    " markdown
+    Plug 'godlygeek/tabular'
+    Plug 'plasticboy/vim-markdown'
 
 call plug#end()
 
