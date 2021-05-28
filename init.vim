@@ -44,6 +44,9 @@ call plug#end()
 
 
 
+" luafiles
+luafile $HOME/.config/nvim/lua/general/settings.lua
+luafile $HOME/.config/nvim/lua/general/keymappings.lua
 
 lua << EOF
 require[[nvim-autopairs]].setup()
@@ -56,11 +59,8 @@ require[[colorizer]].setup()
 --require[[statusline]]
 EOF
 
-" luafiles
-luafile $HOME/.config/nvim/lua/general/settings.lua
-luafile $HOME/.config/nvim/lua/general/keymappings.lua
-luafile $HOME/.config/nvim/lua/telescope/init.lua
-luafile $HOME/.config/nvim/lua/nvim-tree/init.lua
+luafile $HOME/.config/nvim/lua/telescope-nvim/init.lua
+luafile $HOME/.config/nvim/lua/nvimTree/init.lua
 luafile $HOME/.config/nvim/lua/statusline/init.lua
 
 
