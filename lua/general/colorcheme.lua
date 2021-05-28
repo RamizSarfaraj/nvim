@@ -12,7 +12,7 @@ vim.g.gruvbox_color_column = "green"
 vim.g.gruvbox_italicize_strings = 1
 vim.cmd("colorscheme gruvbox")
 
-
+-- material colorscheme
 -- vim.g.material_style = 'darker'
 -- vim.g.material_italic_comments = true
 -- vim.g.material_italic_keywords = true
@@ -22,3 +22,15 @@ vim.cmd("colorscheme gruvbox")
 -- vim.g.material_borders = false
 -- vim.g.material_disable_background = false
 -- vim.cmd("colorscheme material")
+
+
+-- tokyonight
+vim.g.tokyonight_style = "night"
+vim.g.tokyonight_italic_functions = true
+vim.g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
+
+-- Change the "hint" color to the "orange" color, and make the "error" color bright red
+vim.g.tokyonight_colors = { hint = "orange", error = "#ff0000" }
+
+-- Load the colorscheme
+vim.cmd[[colorscheme tokyonight]]

@@ -32,10 +32,10 @@ endif
     " colorizer
     Plug 'norcalli/nvim-colorizer.lua'
 
-    " vim colorscheme
+    " vim colorscheme ( more than one and that's how I like it.)
     Plug 'gruvbox-community/gruvbox'
-    Plug 'dracula/vim'
     Plug 'marko-cerovac/material.nvim'
+    Plug 'folke/tokyonight.nvim'
 
     " markdown
     Plug 'godlygeek/tabular'
