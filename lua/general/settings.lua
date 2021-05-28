@@ -25,7 +25,7 @@ vim.o.backspace = "indent,eol,start"
 vim.o.shortmess = vim.o.shortmess .. "c"
 vim.wo.cursorcolumn = true
 vim.o.hidden = true
-vim.o.showtabline = 2
+vim.o.showtabline = 1
 vim.o.clipboard="unnamed,unnamedplus"
 
 vim.o.incsearch = true
