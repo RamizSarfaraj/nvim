@@ -29,7 +29,8 @@ Plug 'vim-airline/vim-airline-themes'
 "" vim colorscheme
 Plug 'gruvbox-community/gruvbox'
 Plug 'dracula/vim'
-"" Rainbow Brackets
+Plug 'murilo-menezes/palenight.lua'
+"Rainbow Brackets
 Plug 'luochen1990/rainbow'
 
 
