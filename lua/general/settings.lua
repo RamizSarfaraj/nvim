@@ -7,29 +7,28 @@ vim.cmd("filetype plugin indent on")
 vim.o.termguicolors = true -- set term gui colors most terminals support this
 vim.o.background = 'dark'
 
---require[[palenight]]
-vim.cmd("colorscheme gruvbox")
---vim.cmd[[colo moonlight]]
-----vim.cmd("colorscheme dracula")
-vim.g.gruvbox_bold = 0
-vim.g.gruvbox_italic = 1
-vim.g.gruvbox_contrast_dark = 'hard'
-vim.g.gruvbox_transparent_bg = 1
-vim.g.gruvbox_hls_cursor = 'orange'
-vim.g.gruvbox_color_column = "green"
-vim.g.gruvbox_italicize_strings = 1
--- Example config in lua
---vim.g.moonlight_italic_comments = true
---vim.g.moonlight_italic_keywords = true
---vim.g.moonlight_italic_functions = true
---vim.g.moonlight_italic_variables = false
---vim.g.moonlight_contrast = true
---vim.g.moonlight_borders = false
---vim.g.moonlight_disable_background = false
+ --gruvbox colorscheme
+--vim.cmd("colorscheme gruvbox")
+--vim.g.gruvbox_bold = 0
+--vim.g.gruvbox_italic = 1
+--vim.g.gruvbox_contrast_dark = 'hard'
+--vim.g.gruvbox_transparent_bg = 1
+--vim.g.gruvbox_hls_cursor = 'orange'
+--vim.g.gruvbox_color_column = "green"
+--vim.g.gruvbox_italicize_strings = 1
 
 
+vim.g.material_style = 'deep ocean'
+vim.g.material_italic_comments = true
+vim.g.material_italic_keywords = true
+vim.g.material_italic_functions = true
+vim.g.material_italic_variables = false
+vim.g.material_contrast = true
+vim.g.material_borders = false
+vim.g.material_disable_background = false
+vim.cmd("colorscheme material")
 
---vim.cmd("set encoding='UTF-8'")
+
 vim.o.title = false
 vim.o.mouse = "a"
 vim.o.visualbell = true
@@ -71,8 +70,6 @@ vim.bo.expandtab = true
 vim.bo.tabstop = 4
 vim.bo.shiftwidth = 4
 vim.bo.smartindent = true
-vim.cmd("set ts=4")
-vim.cmd("set sw=4")
 
 vim.cmd("set inccommand=split") -- make substitution work in realtime
 vim.cmd([[set list listchars=tab:\ \ ,trail:·,nbsp:·]])

@@ -34,6 +34,7 @@ Plug 'norcalli/nvim-colorizer.lua'
 " vim colorscheme
 Plug 'gruvbox-community/gruvbox'
 Plug 'dracula/vim'
+Plug 'marko-cerovac/material.nvim'
 
 " markdown
 Plug 'godlygeek/tabular'
@@ -43,28 +44,22 @@ call plug#end()
 
 
 
-
-" luafiles
+" settings and keymappings first to load
 luafile $HOME/.config/nvim/lua/general/settings.lua
 luafile $HOME/.config/nvim/lua/general/keymappings.lua
 
+" lua plugins for autopair and color highlights (these work without any setup)
 lua << EOF
 require[[nvim-autopairs]].setup()
 require[[colorizer]].setup()
-
---
---require[[general]]
---require[[telescope]]
---require[[nvim-tree]]
---require[[statusline]]
 EOF
 
+" other major lua plugin setups
 luafile $HOME/.config/nvim/lua/telescope-nvim/init.lua
 luafile $HOME/.config/nvim/lua/nvimTree/init.lua
 luafile $HOME/.config/nvim/lua/statusline/init.lua
 
 
-
-
-source $HOME/.config/nvim/after/plugin/plugins.vim
+" coc.nvim and other settings.
 source $HOME/.config/nvim/after/plugin/coc.vim
+source $HOME/.config/nvim/after/plugin/plugins.vim
