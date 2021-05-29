@@ -43,6 +43,9 @@ endif
     Plug 'godlygeek/tabular'
     Plug 'plasticboy/vim-markdown'
 
+    " startify, keeps track of your recent opened
+    Plug 'mhinz/vim-startify'
+
 call plug#end()
 
 
