@@ -33,10 +33,12 @@ endif
     Plug 'norcalli/nvim-colorizer.lua'
 
     " vim colorscheme ( more than one and that's how I like it.)
-    Plug 'gruvbox-community/gruvbox'
-    Plug 'marko-cerovac/material.nvim'
-    Plug 'folke/tokyonight.nvim'
-    Plug 'embark-theme/vim', { 'as': 'embark' }
+    " Plug 'gruvbox-community/gruvbox'
+    Plug 'ChristianChiarulli/nvcode-color-schemes.vim'
+
+
+    " Treesitter
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
     " markdown
     Plug 'godlygeek/tabular'
@@ -64,6 +66,8 @@ luafile $HOME/.config/nvim/lua/markdown/init.lua
 luafile $HOME/.config/nvim/lua/telescope-nvim/init.lua
 luafile $HOME/.config/nvim/lua/nvimTree/init.lua
 luafile $HOME/.config/nvim/lua/statusline/init.lua
+luafile $HOME/.config/nvim/lua/tree-sitter/init.lua
+
 
 
 " coc.nvim and other settings.
