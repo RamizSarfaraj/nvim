@@ -36,7 +36,6 @@ endif
     " Plug 'gruvbox-community/gruvbox'
     Plug 'ChristianChiarulli/nvcode-color-schemes.vim'
 
-
     " Treesitter
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
