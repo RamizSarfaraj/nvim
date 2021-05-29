@@ -1,8 +1,5 @@
 # neovim configuration folder.
 
-![Screenshot](https://github.com/RamizSarfaraj/nvim/blob/master/Image/Image.png)
-
-## Configuration still in progress
 **Ultimate plan is to fully switch to lua configuration.**
 
 
