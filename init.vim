@@ -12,32 +12,32 @@ endif
 
     "auto open and close pairs
     Plug 'windwp/nvim-autopairs'
-
     " better commenting
     Plug 'terrortylor/nvim-comment'
-
     " status lien
     Plug 'glepnir/galaxyline.nvim'
+
 
     " intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " snippets
     Plug 'honza/vim-snippets'
 
+
     " telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
 
-    " colorizer
-    Plug 'norcalli/nvim-colorizer.lua'
 
     " vim colorscheme ( more than one and that's how I like it.)
     " Plug 'gruvbox-community/gruvbox'
     Plug 'ChristianChiarulli/nvcode-color-schemes.vim'
-
+    " colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
     " Treesitter
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 
     " markdown
     Plug 'godlygeek/tabular'
