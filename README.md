@@ -2,6 +2,10 @@
 
 **Ultimate plan is to fully switch to lua configuration.**
 
+```clone
+git clone git@github.com:RamizSarfaraj/nvim.git ~/.config/nvim/
+```
+
 
 * Using: [Vim-plug](https://github.com/junegunn/vim-plug) plguin manager.
 
