@@ -1,6 +1,5 @@
--- getmetatable("").__index = function(str, i) return string.sub(str, i, i) end
---vim.o.termiguicolors = true
-
+local utils = require("utils")
+local opt = utils.opt
 
 vim.cmd("syntax on")
 vim.cmd("filetype plugin indent on")
@@ -43,8 +42,9 @@ vim.wo.numberwidth = 2
 vim.wo.cursorline = true
 
 vim.bo.expandtab = true
-vim.bo.tabstop = 4
+-- vim.bo.tabstop = 4
 vim.bo.shiftwidth = 4
+-- vim.bo.softtabstop = 4
 vim.bo.smartindent = true
 
 vim.cmd("set inccommand=split") -- make substitution work in realtime

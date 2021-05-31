@@ -1,5 +1,15 @@
 local utils = {}
 
+local scopes = {o =vim.o, b = vim.bo, w = vim.wo}
+
+
+utils.opt = function(scope, key, value)
+    scopes[scope][key] = value
+    if scope ~= "o" then
+        scopes["o"][key] = value
+    end
+end
+
 utils.keymap = function(mode, lhs, rhs, opts)
     local options = {noremap = true}
     if opts then options = vim.tbl_extend("force", options, opts) end
