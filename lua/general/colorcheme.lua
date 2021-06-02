@@ -23,4 +23,4 @@ vim.o.background = 'dark'
 -- vim.g.material_disable_background = false
 -- vim.cmd("colorscheme material")
 
-vim.cmd[[ colo snazzy ]]
+vim.cmd[[ colo onedark ]]
