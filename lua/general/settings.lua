@@ -6,10 +6,6 @@ vim.cmd("filetype plugin indent on")
 
 vim.o.title = false
 vim.o.mouse = "a"
-vim.o.visualbell = true
-vim.o.errorbells = false
-vim.o.showcmd = false
-
 vim.o.showmode = false
 vim.o.swapfile = false
 vim.o.backup = false
@@ -22,7 +18,6 @@ vim.o.splitright = true
 vim.o.splitbelow = true
 vim.o.backspace = "indent,eol,start"
 vim.o.shortmess = vim.o.shortmess .. "c"
-vim.wo.cursorcolumn = true
 vim.o.hidden = true
 vim.o.showtabline = 2
 vim.o.clipboard="unnamed,unnamedplus"
@@ -40,11 +35,13 @@ vim.wo.relativenumber = true
 vim.wo.wrap = false
 vim.wo.numberwidth = 2
 vim.wo.cursorline = true
+vim.wo.cursorcolumn = true
 
 vim.bo.expandtab = true
--- vim.bo.tabstop = 4
+vim.bo.tabstop = 4
 vim.bo.shiftwidth = 4
--- vim.bo.softtabstop = 4
+vim.bo.softtabstop = 4
+
 vim.bo.smartindent = true
 
 vim.cmd("set inccommand=split") -- make substitution work in realtime
