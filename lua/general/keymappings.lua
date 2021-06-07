@@ -13,12 +13,12 @@ map("n", ";q", ":wq<CR>") -- use ;w to save and quit
 map("n", ";1", ":q!<CR>") -- use ;w to quit without saving
 
 -- Better split switching
-map("n", "<C-J>", "<C-W>j")
-map("n", "<C-K>", "<C-W>k")
-map("n", "<C-H>", "<C-W>h")
-map("n", "<C-L>", "<C-W>l")
+map("n", "<M-j>", "<C-W>j")
+map("n", "<M-k>", "<C-W>k")
+map("n", "<M-h>", "<C-W>h")
+map("n", "<M-l>", "<C-W>l")
 
---yank util the end of line
+--yank utilMthe end of line
 map('n', 'Y', 'y$', { noremap = true })
 -- split
 map("n", "|", ":vsp<CR>")

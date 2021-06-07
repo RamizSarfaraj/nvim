@@ -74,3 +74,4 @@ luafile $HOME/.config/nvim/lua/tree-sitter/init.lua
 
 " coc.nvim and other settings.
 source $HOME/.config/nvim/after/ftplugin/coc.vim
+
