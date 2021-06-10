@@ -11,7 +11,7 @@ require('telescope').setup{
       '--column',
       '--smart-case'
     },
-    prompt_position = "top",
+    prompt_position = "bottom",
     prompt_prefix = "> ",
     selection_caret = "> ",
     entry_prefix = "  ",
@@ -24,7 +24,7 @@ require('telescope').setup{
         mirror = false,
       },
       vertical = {
-        mirror = false,
+        mirror = true,
       },
     },
     file_sorter =  require'telescope.sorters'.get_fuzzy_file,
@@ -32,10 +32,10 @@ require('telescope').setup{
     generic_sorter =  require'telescope.sorters'.get_generic_fuzzy_sorter,
     shorten_path = true,
     winblend = 0,
-    width = 0.75,
+    width = 0.5,
     preview_cutoff = 120,
     results_height = 1,
-    results_width = 0.8,
+    results_width = 0.5,
     border = {},
     borderchars = { '─', '│', '─', '│', '╭', '╮', '╯', '╰' },
     color_devicons = true,
@@ -58,4 +58,5 @@ nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
 nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 
+nnoremap <C-p> <cmd>lua require('telescope.builtin').git_files()<cr>
 ]]
