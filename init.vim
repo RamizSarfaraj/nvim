@@ -1,4 +1,6 @@
-let mapleader = " "
+lua << EOF
+vim.g.mapleader = " "
+EOF
 
 if has("nvim")
     call plug#begin("~/.config/nvim/autoload/plugged") " for neovim
