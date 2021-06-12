@@ -45,6 +45,10 @@ endif
     Plug 'godlygeek/tabular'
     Plug 'plasticboy/vim-markdown'
 
+    " floaterm
+    Plug 'voldikss/vim-floaterm'
+
+
     " startify, keeps track of your recent opened
     Plug 'mhinz/vim-startify'
 
@@ -71,6 +75,7 @@ luafile $HOME/.config/nvim/lua/telescope-nvim/init.lua
 luafile $HOME/.config/nvim/lua/nvimTree/init.lua
 luafile $HOME/.config/nvim/lua/statusline/init.lua
 luafile $HOME/.config/nvim/lua/tree-sitter/init.lua
+luafile $HOME/.config/nvim/lua/floaTerm/init.lua
 
 
 
