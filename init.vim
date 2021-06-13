@@ -22,6 +22,8 @@ endif
 
     " intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " lua development
+    Plug 'rafcamlet/coc-nvim-lua'
     " snippets
     Plug 'honza/vim-snippets'
 
@@ -80,5 +82,5 @@ luafile $HOME/.config/nvim/lua/floaTerm/init.lua
 
 
 " coc.nvim and other settings.
-source $HOME/.config/nvim/after/ftplugin/coc.vim
+source $HOME/.config/nvim/plugin/coc.vim
 
