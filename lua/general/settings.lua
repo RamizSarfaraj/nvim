@@ -4,7 +4,7 @@ local opt = utils.opt
 vim.cmd("syntax on")
 vim.cmd("filetype plugin indent on")
 
-vim.o.title = false
+vim.o.title = true
 vim.o.mouse = "a"
 vim.o.showmode = false
 vim.o.swapfile = false
@@ -33,15 +33,13 @@ vim.o.shiftround = true
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.wo.wrap = false
-vim.wo.numberwidth = 2
+vim.wo.numberwidth = 3
 vim.wo.cursorline = true
 vim.wo.cursorcolumn = true
 
-vim.bo.expandtab = true
-vim.bo.tabstop = 4
-vim.bo.shiftwidth = 4
-vim.bo.softtabstop = 4
-
+vim.cmd[[
+set ts=2 sw=2 sts=2 et
+]]
 vim.bo.smartindent = true
 
 vim.cmd("set inccommand=split") -- make substitution work in realtime

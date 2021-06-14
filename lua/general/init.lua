@@ -1,6 +1,6 @@
 -- import settings
-require("settings")
+require("general.settings")
 -- import colorschem
-require('colorscheme')
+require('general.colorscheme')
 -- inport keymappings
-require("keymappings")
+require("general.keymappings")
