@@ -48,9 +48,9 @@ return require("packer").startup(
 
     --vim colorscheme ( more than one and that's how I like it.)
     --use 'gruvbox-community/gruvbox'
-    -- use {'ChristianChiarulli/nvcode-color-schemes.vim'}
+    use {'ChristianChiarulli/nvcode-color-schemes.vim'}
     use {'lvim-tech/lvim-colorscheme'}
-    use {'ful1e5/onedark.nvim'}
+    -- use {'ful1e5/onedark.nvim'}
 
     --colorizer
     use {'norcalli/nvim-colorizer.lua'}
