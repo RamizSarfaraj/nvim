@@ -33,6 +33,7 @@ require[[plugin_setup.zenmode]]
 require[[plugin_setup.whichkey]]
 
 
+require[[plugin_setup.gitsign]]
 
 -- lsp
 -- require[[plugin_setup.lsp]]
