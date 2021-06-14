@@ -18,6 +18,7 @@ return require("packer").startup(
   --file tree & icons for file tree
   use {'kyazdani42/nvim-tree.lua'}
   use {'kyazdani42/nvim-web-devicons'}
+  use {'lewis6991/gitsigns.nvim'}
 
   -- Native LSP
   use {'neovim/nvim-lspconfig'}
