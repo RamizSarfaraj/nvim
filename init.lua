@@ -6,13 +6,7 @@ require[[plugin_list]]
 require[[general]]
 
 -- plugins settings
-require[[commenter]]
-require[[markdown]]
-require[[telescope-nvim]]
-require[[nvimTree]]
-require[[statusline]]
-require[[tree-sitter]]
-require[[floaTerm]]
+require[[plugin_setup]]
 require[[nvim-autopairs]].setup()
 require[[colorizer]].setup()
 

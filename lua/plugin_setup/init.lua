@@ -1,0 +1,6 @@
+require[[plugin_setup.commenter]]
+require[[plugin_setup.markdown]]
+require[[plugin_setup.nvimTree]]
+require[[plugin_setup.statusline]]
+require[[plugin_setup.telescope-nvim]]
+require[[plugin_setup.tree-sitter]]
