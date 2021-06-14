@@ -72,6 +72,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["TrueZen.nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/TrueZen.nvim"
+  },
   ["coc-nvim-lua"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/coc-nvim-lua"
@@ -83,6 +87,10 @@ _G.packer_plugins = {
   ["galaxyline.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
   },
   ["lsp-colors.nvim"] = {
     loaded = true,
@@ -163,6 +171,10 @@ _G.packer_plugins = {
   ["vim-startify"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/vim-startify"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/which-key.nvim"
   }
 }
 
