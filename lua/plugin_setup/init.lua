@@ -11,7 +11,8 @@ require[[plugin_setup.markdown]]
 require[[plugin_setup.nvimTree]]
 
 -- statusline
-require[[plugin_setup.statusline]]
+-- require[[plugin_setup.statusline]]
+require[[plugin_setup.lineLua]]
 
 -- telescope
 require[[plugin_setup.telescope-nvim]]

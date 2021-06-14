@@ -34,6 +34,7 @@ return require("packer").startup(
   use {'terrortylor/nvim-comment'}
   --status lien
   use {'glepnir/galaxyline.nvim'}
+  use {'hoob3rt/lualine.nvim'}
 
 
   --intellisense
