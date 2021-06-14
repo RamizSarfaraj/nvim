@@ -33,13 +33,11 @@ vim.o.shiftround = true
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.wo.wrap = false
-vim.wo.numberwidth = 3
+vim.wo.numberwidth = 2
 vim.wo.cursorline = true
 vim.wo.cursorcolumn = true
 
-vim.cmd[[
-set ts=2 sw=2 sts=2 et
-]]
+vim.cmd[[set ts=2 sw=2 sts=2 et]]
 vim.bo.smartindent = true
 
 vim.cmd("set inccommand=split") -- make substitution work in realtime

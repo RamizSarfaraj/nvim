@@ -1,6 +1,6 @@
 {
 
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "python", "cpp", "sh", "lua"],
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "python", "cpp", "sh", "lua", "json"],
   // bash language server
   "languageserver": {
       "bash": {
