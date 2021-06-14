@@ -24,3 +24,8 @@ require[[plugin_setup.autopairs]]
 
 -- colorizer
 require[[plugin_setup.colori-zer]]
+
+
+-- lsp
+-- require[[plugin_setup.lsp]]
+-- require[[plugin_setup.compe]]
