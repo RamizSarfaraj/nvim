@@ -40,6 +40,7 @@ return require("packer").startup(
   use {'neoclide/coc.nvim', branch = 'release'}
   --lua development
   use {'rafcamlet/coc-nvim-lua'}
+  use {'neoclide/jsonc.vim'}
 
   --snippets
   use {'honza/vim-snippets'}
