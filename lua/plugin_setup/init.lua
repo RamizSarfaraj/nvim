@@ -1,4 +1,5 @@
 require[[plugin_setup.commenter]]
+require[[plugin_setup.floaTerm]]
 require[[plugin_setup.markdown]]
 require[[plugin_setup.nvimTree]]
 require[[plugin_setup.statusline]]
