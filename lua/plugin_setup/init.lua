@@ -25,6 +25,14 @@ require[[plugin_setup.autopairs]]
 -- colorizer
 require[[plugin_setup.colori-zer]]
 
+-- intdent line
+require[[plugin_setup.indentline]]
+
+-- zenmode and which key
+require[[plugin_setup.zenmode]]
+require[[plugin_setup.whichkey]]
+
+
 
 -- lsp
 -- require[[plugin_setup.lsp]]
