@@ -39,6 +39,7 @@ return require("packer").startup(
   use {'neoclide/coc.nvim', branch = 'release'}
   --lua development
   use {'rafcamlet/coc-nvim-lua'}
+
   --snippets
   use {'honza/vim-snippets'}
 
