@@ -7,8 +7,8 @@ require[[general]]
 
 -- plugins settings
 require[[plugin_setup]]
-require[[nvim-autopairs]].setup()
-require[[colorizer]].setup()
+-- require[[nvim-autopairs]].setup()
+-- require[[colorizer]].setup()
 
 
 vim.cmd[[ source $HOME/.config/nvim/plugin/coc.vim ]]
