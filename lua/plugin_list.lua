@@ -12,62 +12,65 @@ vim.cmd "autocmd BufWritePost plugins.lua PackerCompile" -- Auto compile when th
 
 return require("packer").startup(
   function(use)
-    --file tree & icons for file tree
-    use {'kyazdani42/nvim-tree.lua'}
-    use {'kyazdani42/nvim-web-devicons'}
+  -- Packer can manage itself
+  use {'wbthomason/packer.nvim'}
 
-    -- Native LSP
-    use {'neovim/nvim-lspconfig'}
-    use {'kabouzeid/nvim-lspinstall'}
-    -- use 'mattn/efm-langserver'
-    use {'folke/lsp-colors.nvim'}
-    -- use "windwp/nvim-ts-autotag"
-    -- use 'hrsh7th/nvim-compe'
+  --file tree & icons for file tree
+  use {'kyazdani42/nvim-tree.lua'}
+  use {'kyazdani42/nvim-web-devicons'}
 
-    --auto open and close pairs
-    use {'windwp/nvim-autopairs'}
-    --better commenting
-    use {'terrortylor/nvim-comment'}
-    --status lien
-    use {'glepnir/galaxyline.nvim'}
+  -- Native LSP
+  use {'neovim/nvim-lspconfig'}
+  use {'kabouzeid/nvim-lspinstall'}
+  -- use 'mattn/efm-langserver'
+  use {'folke/lsp-colors.nvim'}
+  -- use "windwp/nvim-ts-autotag"
+  -- use 'hrsh7th/nvim-compe'
 
-
-    --intellisense
-    use {'neoclide/coc.nvim', branch = 'release'}
-    --lua development
-    use {'rafcamlet/coc-nvim-lua'}
-    --snippets
-    use {'honza/vim-snippets'}
+  --auto open and close pairs
+  use {'windwp/nvim-autopairs'}
+  --better commenting
+  use {'terrortylor/nvim-comment'}
+  --status lien
+  use {'glepnir/galaxyline.nvim'}
 
 
-    --telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
-    use {'nvim-lua/popup.nvim'}
-    use {'nvim-lua/plenary.nvim'}
-    use {'nvim-telescope/telescope.nvim'}
+  --intellisense
+  use {'neoclide/coc.nvim', branch = 'release'}
+  --lua development
+  use {'rafcamlet/coc-nvim-lua'}
+  --snippets
+  use {'honza/vim-snippets'}
 
 
-    --vim colorscheme ( more than one and that's how I like it.)
-    --use 'gruvbox-community/gruvbox'
-    use {'ChristianChiarulli/nvcode-color-schemes.vim'}
-    use {'lvim-tech/lvim-colorscheme'}
-    -- use {'ful1e5/onedark.nvim'}
-
-    --colorizer
-    use {'norcalli/nvim-colorizer.lua'}
-
-    --Treesitter
-    use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}
+  --telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
+  use {'nvim-lua/popup.nvim'}
+  use {'nvim-lua/plenary.nvim'}
+  use {'nvim-telescope/telescope.nvim'}
 
 
-    --markdown
-    use {'godlygeek/tabular'}
-    use {'plasticboy/vim-markdown'}
+  --vim colorscheme ( more than one and that's how I like it.)
+  --use 'gruvbox-community/gruvbox'
+  -- use {'ChristianChiarulli/nvcode-color-schemes.vim'}
+  use {'lvim-tech/lvim-colorscheme'}
+  use {'ful1e5/onedark.nvim'}
 
-    --floaterm
-    use {'voldikss/vim-floaterm'}
+  --colorizer
+  use {'norcalli/nvim-colorizer.lua'}
+
+  --Treesitter
+  use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}
 
 
-    --startify, keeps track of your recent opened
-    use {'mhinz/vim-startify'}
+  --markdown
+  use {'godlygeek/tabular'}
+  use {'plasticboy/vim-markdown'}
+
+  --floaterm
+  use {'voldikss/vim-floaterm'}
+
+
+  --startify, keeps track of your recent opened
+  use {'mhinz/vim-startify'}
 
   end)
