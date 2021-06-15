@@ -7,9 +7,9 @@ gl.short_line_list = {" "} -- keeping this table { } as empty will show inactive
 
 -- Colors {{{
 local colors = {
-	bg = "#242735",
+	bg = "#242",
 	line_bg = '#0b0e1b',
-	fg = "#3EFF02",
+	fg = "#3EFF71",
 	green = "#BBE67E",
 	orange = "#FF8800",
 	red = '#E06168',
