@@ -12,8 +12,7 @@ require[[plugin_setup]]
 
 -- CoC setup (soon to by replaced by native lsp)
 vim.cmd[[
-source $HOME/.config/nvim/plugin/coc.vim
-
-vmap ,f  <Plug>(coc-format-selected)
-nmap ,f  <Plug>(coc-format-selected)
+  source $HOME/.config/nvim/plugin/coc.vim
+  vmap ,f  <Plug>(coc-format-selected)
+  nmap ,f  <Plug>(coc-format-selected)
 ]]
