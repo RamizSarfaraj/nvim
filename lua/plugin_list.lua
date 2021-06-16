@@ -35,7 +35,6 @@ return require("packer").startup(
   --status lien
   use {'glepnir/galaxyline.nvim'}
 
-
   --intellisense
   use {'neoclide/coc.nvim', branch = 'release'}
   --lua development
