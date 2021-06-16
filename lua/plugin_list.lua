@@ -23,9 +23,7 @@ return require("packer").startup(
   -- Native LSP
   use {'neovim/nvim-lspconfig'}
   use {'kabouzeid/nvim-lspinstall'}
-  -- use 'mattn/efm-langserver'
   use {'folke/lsp-colors.nvim'}
-  -- use "windwp/nvim-ts-autotag"
   -- use 'hrsh7th/nvim-compe'
 
   --auto open and close pairs
