@@ -4,43 +4,43 @@ local gls = gl.section
 gl.short_line_list = {" "} -- keeping this table { } as empty will show inactive statuslines
 
 local colors = {
-    bg = "#22262e",
-    fg = "#abb2bf",
-    green = "#82ad63",
-    red = "#d47d85",
-    lightbg = "#2e323a",
-    blue = "#7797b7",
-    yellow = "#e0c080",
-    grey = "#6f737b"
+  bg = "#22262e",
+  fg = "#abb2bf",
+  green = "#82ad63",
+  red = "#d47d85",
+  lightbg = "#2e323a",
+  blue = "#7797b7",
+  yellow = "#e0c080",
+  grey = "#6f737b"
 }
 
 gls.left[2] = {
-    statusIcon = {
-        provider = function()
-            return "   "
-        end,
-        highlight = {colors.bg, colors.blue},
-        separator = "  ",
-        separator_highlight = {colors.blue, colors.lightbg}
-    }
+  statusIcon = {
+    provider = function()
+        return "   "
+    end,
+    highlight = {colors.bg, colors.blue},
+    separator = "  ",
+    separator_highlight = {colors.blue, colors.lightbg}
+  }
 }
 
 gls.left[3] = {
-    FileIcon = {
-        provider = "FileIcon",
-        condition = buffer_not_empty,
-        highlight = {colors.fg, colors.lightbg}
-    }
+  FileIcon = {
+    provider = "FileIcon",
+    condition = buffer_not_empty,
+    highlight = {colors.fg, colors.lightbg}
+  }
 }
 
 gls.left[4] = {
-    FileName = {
-        provider = {"FileName"},
-        condition = buffer_not_empty,
-        highlight = {colors.fg, colors.lightbg},
-        separator = " ",
-        separator_highlight = {colors.lightbg, colors.bg}
-    }
+  FileName = {
+    provider = {"FileName"},
+    condition = buffer_not_empty,
+    highlight = {colors.fg, colors.lightbg},
+    separator = " ",
+    separator_highlight = {colors.lightbg, colors.bg}
+  }
 }
 
 local checkwidth = function()
