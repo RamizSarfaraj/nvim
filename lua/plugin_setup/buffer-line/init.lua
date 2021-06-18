@@ -1,4 +1,3 @@
-
 require('bufferline').setup {
   options = {
     numbers = "buffer_id",
@@ -25,3 +24,9 @@ require('bufferline').setup {
     always_show_bufferline = true,
   }
 }
+
+local utils = require[[utils]]
+local map = utils.keymap
+
+map("n", "bd", "<cmd> BufferLineSortByDirectory<CR>")
+map("n", "be", "<cmd> BufferLineSortByExtension<CR>")
