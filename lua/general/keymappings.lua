@@ -1,10 +1,10 @@
 local utils = require("utils")
 local map = utils.keymap
 
+vim.cmd[[ nmap <Space> <NOP>]]
+
 vim.g.mapleader = " "   -- space as leader
 
-vim.cmd[[ nmap W <NOP>]]
-map('n', 'W', 'dw')
 
 map("i", "kj", "<Esc>") -- use kj to go normal mode
 map("v", "kj", "<Esc>") -- use kj to go normal mode
