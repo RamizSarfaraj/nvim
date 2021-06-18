@@ -50,13 +50,13 @@ require('telescope').setup{
   }
 }
 
+local utils = require("utils")
+local map = utils.keymap
 
-vim.cmd[[
+map("n", "<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<cr>")
+map("n", "<leader>fg", "<cmd>lua require('telescope.builtin').live_grep()<cr>")
+map("n", "<leader>fb", "<cmd>lua require('telescope.builtin').buffers()<cr>")
+map("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>")
 
-nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
-nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
-nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
-nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+map("n", "<leader>gf", "<cmd>lua require('telescope.builtin').git_files()<cr>")
 
-nnoremap <leader>gf <cmd>lua require('telescope.builtin').git_files()<cr>
-]]
