@@ -3,25 +3,16 @@ local gls = gl.section
 
 gl.short_line_list = {" "} -- keeping this table { } as empty will show inactive statuslines
 
-local colors = {
-  bg = "#22262e",
-  fg = "#abb2bf",
-  green = "#82ad63",
-  red = "#d47d85",
-  lightbg = "#2e323a",
-  blue = "#7797b7",
-  yellow = "#e0c080",
-  grey = "#6f737b"
-}
+local colors = require[[themes.onedark]]
 
 gls.left[2] = {
   statusIcon = {
     provider = function()
         return "   "
     end,
-    highlight = {colors.bg, colors.blue},
+    highlight = {colors.bg, colors.left_most},
     separator = "  ",
-    separator_highlight = {colors.blue, colors.lightbg}
+    separator_highlight = {colors.left_most, colors.lightbg}
   }
 }
 
@@ -65,7 +56,7 @@ gls.left[6] = {
         provider = "DiffModified",
         condition = checkwidth,
         icon = "   ",
-        highlight = {colors.grey, colors.bg}
+        highlight = {colors.git_color, colors.bg}
     }
 }
 
@@ -74,7 +65,7 @@ gls.left[7] = {
         provider = "DiffRemove",
         condition = checkwidth,
         icon = "  ",
-        highlight = {colors.grey, colors.bg}
+        highlight = {colors.git_color, colors.bg}
     }
 }
 
@@ -82,7 +73,7 @@ gls.left[8] = {
     DiagnosticError = {
         provider = "DiagnosticError",
         icon = "  ",
-        highlight = {colors.grey, colors.bg}
+        highlight = {colors.git_color, colors.bg}
     }
 }
 
@@ -90,7 +81,7 @@ gls.left[9] = {
     DiagnosticWarn = {
         provider = "DiagnosticWarn",
         icon = "  ",
-        highlight = {colors.yellow, colors.bg}
+        highlight = {colors.error_color, colors.bg}
     }
 }
 
@@ -100,7 +91,7 @@ gls.right[1] = {
             return " "
         end,
         condition = require("galaxyline.provider_vcs").check_git_workspace,
-        highlight = {colors.grey, colors.lightbg},
+        highlight = {colors.git_color, colors.lightbg},
         separator = "",
         separator_highlight = {colors.lightbg, colors.bg}
     }
@@ -110,7 +101,7 @@ gls.right[2] = {
     GitBranch = {
         provider = "GitBranch",
         condition = require("galaxyline.provider_vcs").check_git_workspace,
-        highlight = {colors.grey, colors.lightbg}
+        highlight = {colors.git_color, colors.lightbg}
     }
 }
 
@@ -119,9 +110,9 @@ gls.right[3] = {
         provider = function()
             return " "
         end,
-        highlight = {colors.bg, colors.red},
+        highlight = {colors.bg, colors.mode_color},
         separator = " ",
-        separator_highlight = {colors.red, colors.lightbg}
+        separator_highlight = {colors.mode_color, colors.lightbg}
     }
 }
 
@@ -145,7 +136,7 @@ gls.right[4] = {
                 return "  " .. current_Mode .. " "
             end
         end,
-        highlight = {colors.red, colors.lightbg}
+        highlight = {colors.mode_color, colors.lightbg}
     }
 }
 
@@ -155,8 +146,8 @@ gls.right[5] = {
             return " "
         end,
         separator = "",
-        separator_highlight = {colors.green, colors.bg},
-        highlight = {colors.lightbg, colors.green}
+        separator_highlight = {colors.end_color, colors.bg},
+        highlight = {colors.lightbg, colors.end_color}
     }
 }
 
@@ -165,6 +156,6 @@ gls.right[6] = {
         provider = function()
             return "  " .. os.date("%H:%M") .. " "
         end,
-        highlight = {colors.green, colors.lightbg}
+        highlight = {colors.end_color, colors.lightbg}
     }
 }
