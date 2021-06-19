@@ -50,6 +50,7 @@ return require("packer").startup(
   use {'lvim-tech/lvim-colorscheme'}
   use {'ful1e5/onedark.nvim'}
   use {'Mofiqul/dracula.nvim'}
+  use {'folke/tokyonight.nvim'}
 
   --colorizer
   use {'norcalli/nvim-colorizer.lua'}
