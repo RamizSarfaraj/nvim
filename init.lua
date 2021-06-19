@@ -7,6 +7,7 @@ require[[plugin_list]]
 require[[general]]
 
 -- plugins settings
+--
 require[[plugin_setup]]
 
 
