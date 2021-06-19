@@ -9,6 +9,8 @@ require[[plugin_setup.markdown]]
 
 -- nvim tree
 require[[plugin_setup.nvimTree]]
+require[[plugin_setup.file-icons]]
+
 require[[plugin_setup.buffer-line]]
 
 -- statusline
