@@ -35,12 +35,6 @@ return require("packer").startup(
   --status lien
   use {'glepnir/galaxyline.nvim'}
 
-  --intellisense
-  -- use {'neoclide/coc.nvim', branch = 'release'}
-  --lua development
-  -- use {'rafcamlet/coc-nvim-lua'}
-  -- use {'neoclide/jsonc.vim'}
-
   --snippets
   use {'honza/vim-snippets'}
 
@@ -52,10 +46,10 @@ return require("packer").startup(
 
 
   --vim colorscheme ( more than one and that's how I like it.)
-  use 'gruvbox-community/gruvbox'
-  -- use {'ChristianChiarulli/nvcode-color-schemes.vim'}
+  use {'gruvbox-community/gruvbox'}
   use {'lvim-tech/lvim-colorscheme'}
   use {'ful1e5/onedark.nvim'}
+  use {'Mofiqul/dracula.nvim'}
 
   --colorizer
   use {'norcalli/nvim-colorizer.lua'}
