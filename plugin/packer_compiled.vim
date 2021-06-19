@@ -76,6 +76,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/TrueZen.nvim"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/dracula.nvim"
+  },
   ["galaxyline.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
@@ -99,10 +103,6 @@ _G.packer_plugins = {
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
-  },
-  ["lvim-colorscheme"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/lvim-colorscheme"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -167,6 +167,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/tokyonight.nvim"
   },
   ["vim-floaterm"] = {
     loaded = true,
