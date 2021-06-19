@@ -1,3 +1,5 @@
+-- hashboard
+require[[plugin_setup.dashboard]]
 -- commenter
 require[[plugin_setup.commenter]]
 
