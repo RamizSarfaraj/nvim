@@ -76,25 +76,25 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/TrueZen.nvim"
   },
-  ["coc-nvim-lua"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/coc-nvim-lua"
-  },
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/coc.nvim"
-  },
   ["galaxyline.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/gruvbox"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
   },
-  ["lsp-colors.nvim"] = {
+  ["lspkind-nvim"] = {
     loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/lsp-colors.nvim"
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
   },
   ["lvim-colorscheme"] = {
     loaded = true,
@@ -104,6 +104,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
   },
+  ["nvim-bufferline.lua"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
+  },
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
@@ -111,6 +115,10 @@ _G.packer_plugins = {
   ["nvim-comment"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-comment"
+  },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

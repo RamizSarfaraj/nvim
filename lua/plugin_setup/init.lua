@@ -37,5 +37,5 @@ require[[plugin_setup.whichkey]]
 require[[plugin_setup.gitsign]]
 
 -- lsp
--- require[[plugin_setup.lsp]]
--- require[[plugin_setup.compe]]
+require[[plugin_setup.nvim-lspconfig]]
+require[[plugin_setup.compe-completion]]

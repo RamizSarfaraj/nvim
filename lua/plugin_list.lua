@@ -35,10 +35,10 @@ return require("packer").startup(
   use {'glepnir/galaxyline.nvim'}
 
   --intellisense
-  use {'neoclide/coc.nvim', branch = 'release'}
+  -- use {'neoclide/coc.nvim', branch = 'release'}
   --lua development
-  use {'rafcamlet/coc-nvim-lua'}
-  use {'neoclide/jsonc.vim'}
+  -- use {'rafcamlet/coc-nvim-lua'}
+  -- use {'neoclide/jsonc.vim'}
 
   --snippets
   use {'honza/vim-snippets'}

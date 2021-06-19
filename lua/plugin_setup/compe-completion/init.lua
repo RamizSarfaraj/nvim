@@ -16,13 +16,10 @@ require("compe").setup {
   max_menu_width = 100,
   documentation = true,
   source = {
-    path = {kind = "   (Path)"},
     buffer = {kind = "   (Buffer)"},
-    calc = {kind = "   (Calc)"},
     vsnip = {kind = "   (Snippet)"},
     nvim_lsp = {kind = "   (LSP)"},
     nvim_lua = true,
-    spell = {kind = "   (Spell)"},
     tags = false,
     vim_dadbod_completion = true,
     emoji = {kind = " ﲃ  (Emoji)", filetypes = {"markdown", "text"}}
