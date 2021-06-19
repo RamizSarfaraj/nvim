@@ -40,20 +40,21 @@ vim.wo.cursorcolumn = true
 vim.cmd[[set ts=2 sw=2 sts=2 et]]
 vim.bo.smartindent = true
 
-vim.cmd("set inccommand=split") -- make substitution work in realtime
-vim.cmd([[set list listchars=tab:\ \ ,trail:·,nbsp:·]])
-vim.cmd([[set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store,*/node_modules/*]])
+-- file extension specific tabbing
+vim.cmd([[autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4]])
 
--- set working directory to current buffer's directory
-vim.cmd([[autocmd BufEnter * silent! lcd %:p:h]])
+vim.cmd[[
+  set list listchars=tab:\ \ ,trail:·,nbsp:·
+  set inccommand=split
+  set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store,*/node_modules/*
 
--- remove whitespace on save
-vim.cmd([[autocmd BufWritePre * :%s/\s\+$//e]])
+  autocmd BufEnter * silent! lcd %:p:h
 
--- color columns
-vim.cmd([[autocmd BufNewFile,BufReadPost *.js,*.ts,*.tsx setl colorcolumn=80,120]])
+  autocmd BufWritePre * :%s/\s\+$//e
 
-vim.cmd([[autocmd InsertEnter * norm zz]]) --automatically center the screen upon enterring insert mode
+  autocmd BufNewFile,BufReadPost *.js,*.ts,*.tsx setl colorcolumn=80,120
 
---highlight while yanking
-vim.cmd 'au TextYankPost * lua vim.highlight.on_yank {on_visual = true}'
+  autocmd InsertEnter * norm zz
+
+  au TextYankPost * lua vim.highlight.on_yank {on_visual = true}
+]]
