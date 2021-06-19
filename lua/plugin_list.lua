@@ -28,6 +28,7 @@ return require("packer").startup(
   use {'hrsh7th/nvim-compe'}
   use {'folke/lsp-colors.nvim'}
 
+
   --auto open and close pairs
   use {'windwp/nvim-autopairs'}
   --better commenting
@@ -47,7 +48,6 @@ return require("packer").startup(
 
   --vim colorscheme ( more than one and that's how I like it.)
   use {'gruvbox-community/gruvbox'}
-  use {'lvim-tech/lvim-colorscheme'}
   use {'ful1e5/onedark.nvim'}
   use {'Mofiqul/dracula.nvim'}
   use {'folke/tokyonight.nvim'}
@@ -69,7 +69,7 @@ return require("packer").startup(
 
   --startify, keeps track of your recent opened
   use {'mhinz/vim-startify'}
-
+  use {'glepnir/dashboard-nvim'}
   -- indent backline
   use {"lukas-reineke/indent-blankline.nvim", branch = "lua"}
 
