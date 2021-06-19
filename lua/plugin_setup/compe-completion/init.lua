@@ -71,8 +71,14 @@ vim.api.nvim_set_keymap("s", "<Tab>", "v:lua.tab_complete()", {expr = true})
 vim.api.nvim_set_keymap("i", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})
 vim.api.nvim_set_keymap("s", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})
 
-vim.cmd("inoremap <silent><expr> <C-Space> compe#complete()")
-vim.cmd("inoremap <silent><expr> <CR> compe#confirm('<CR>')")
-vim.cmd("inoremap <silent><expr> <C-e> compe#close('<C-e>')")
-vim.cmd("inoremap <silent><expr> <C-f> compe#scroll({ 'delta': +4 })")
-vim.cmd("inoremap <silent><expr> <C-d> compe#scroll({ 'delta': -4 })")
+function _G.completions()
+    local npairs = require("nvim-autopairs")
+    if vim.fn.pumvisible() == 1 then
+        if vim.fn.complete_info()["selected"] ~= -1 then
+            return vim.fn["compe#confirm"]("<CR>")
+        end
+    end
+    return npairs.check_break_line_char()
+end
+
+vim.api.nvim_set_keymap("i", "<CR>", "v:lua.completions()", {expr = true})

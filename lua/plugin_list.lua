@@ -24,8 +24,8 @@ return require("packer").startup(
   -- Native LSP
   use {'neovim/nvim-lspconfig'}
   use {'kabouzeid/nvim-lspinstall'}
-  use {'folke/lsp-colors.nvim'}
-  -- use 'hrsh7th/nvim-compe'
+  use {"onsails/lspkind-nvim"}
+  use {'hrsh7th/nvim-compe'}
 
   --auto open and close pairs
   use {'windwp/nvim-autopairs'}
