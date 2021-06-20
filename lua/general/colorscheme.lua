@@ -12,4 +12,4 @@ vim.g.tokyonight_italic_variables = true
 vim.g.tokyonight_dark_sidebar = true
 vim.g.tokyonight_dark_float = true
 
-vim.cmd[[ colo dracula ]]
+vim.cmd[[ colo onedark ]]
