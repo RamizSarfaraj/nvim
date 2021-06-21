@@ -3,7 +3,7 @@ local gls = gl.section
 
 gl.short_line_list = {" "} -- keeping this table { } as empty will show inactive statuslines
 
-local colors = require[[plugin_setup.statusline.themes.onedark]]
+local colors = require[[plugin_setup.statusline.themes.tokyonight]]
 
 gls.left[2] = {
   statusIcon = {
