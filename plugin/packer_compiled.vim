@@ -76,6 +76,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/TrueZen.nvim"
   },
+  ["dashboard-nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/dashboard-nvim"
+  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/dracula.nvim"
