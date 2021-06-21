@@ -143,7 +143,7 @@ gls.right[4] = {
 gls.right[5] = {
     time_icon = {
         provider = function()
-            return " "
+            return "% "
         end,
         separator = "",
         separator_highlight = {colors.end_color, colors.bg},
@@ -152,10 +152,10 @@ gls.right[5] = {
 }
 
 gls.right[6] = {
-    time = {
-        provider = function()
-            return "  " .. os.date("%H:%M") .. " "
-        end,
-        highlight = {colors.end_color, colors.lightbg}
-    }
+  PerCent = {
+    provider = 'LinePercent',
+    separator = ' ',
+    separator_highlight = {'NONE', colors.bg},
+    highlight = {colors.end_color, colors.bg}
+  }
 }
