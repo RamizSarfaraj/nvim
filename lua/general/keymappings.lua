@@ -12,9 +12,6 @@ map("v", "kj", "<Esc>") -- use kj to go normal mode
 map("n", ";", ":")      -- use ; to activate command mode
 map("v", ";", ":")      -- use ; to activate command mode
 
-map("n", ";w", ":w<CR>") -- use ;w to save
-map("n", ";q", ":wq<CR>") -- use ;w to save and quit
-map("n", ";1", ":q!<CR>") -- use ;w to quit without saving
 
 -- Better split switching
 map("n", "<M-j>", "<C-W>j")
