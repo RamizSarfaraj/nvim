@@ -38,10 +38,6 @@ map("n", "<C-down>", ":resize -2<CR>")
 map('x', 'K', ':move \'<-2<CR>gv-gv', {noremap = true, silent = true})
 map('x', 'J', ':move \'>+1<CR>gv-gv', {noremap = true, silent = true})
 
--- Tab switch buffer
-map('n', '<leader>bn', ':bnext<CR>', {noremap = true, silent = true})
-map('n', '<leader>bp', ':bprevious<CR>', {noremap = true, silent = true})
-
 -- better indenting
 map('v', '<', '<gv', {noremap = true, silent = true})
 map('v', '>', '>gv', {noremap = true, silent = true})

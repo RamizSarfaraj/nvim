@@ -28,5 +28,14 @@ require('bufferline').setup {
 local utils = require[[utils]]
 local map = utils.keymap
 
+
+-- MAPPINGS
+map("n", "<S-t>", [[<Cmd>tabnew<CR>]], opt) -- new tab
+map("n", "<S-x>", [[<Cmd>bdelete<CR>]], opt) -- close tab
+
+-- move between tabs
+map("n", "<TAB>", [[<Cmd>BufferLineCycleNext<CR>]], opt)
+map("n", "<S-TAB>", [[<Cmd>BufferLineCyclePrev<CR>]], opt)
+
 map("n", "bd", "<cmd> BufferLineSortByDirectory<CR>")
 map("n", "be", "<cmd> BufferLineSortByExtension<CR>")
