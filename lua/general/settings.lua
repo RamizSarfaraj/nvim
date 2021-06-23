@@ -1,8 +1,8 @@
 local utils = require("utils")
-local opt = utils.opt
+local cmd = vim.cmd
 
-vim.cmd("syntax on")
-vim.cmd("filetype plugin indent on")
+cmd("syntax on")
+cmd("filetype plugin indent on")
 
 vim.o.title = true
 vim.o.mouse = "a"
@@ -37,13 +37,13 @@ vim.wo.numberwidth = 2
 vim.wo.cursorline = true
 vim.wo.cursorcolumn = false
 
-vim.cmd[[set ts=2 sw=2 sts=2 et]]
+cmd[[set ts=2 sw=2 sts=2 et]]
 vim.bo.smartindent = true
 
 -- file extension specific tabbing
-vim.cmd([[autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4]])
+cmd[[autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4]]
 
-vim.cmd[[
+cmd[[
   set list listchars=tab:\ \ ,trail:·,nbsp:·
   set inccommand=split
   set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store,*/node_modules/*

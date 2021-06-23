@@ -1,3 +1,4 @@
+local cmd = vim.cmd
 vim.o.termguicolors = true -- set term gui colors most terminals support this
 vim.o.background = 'dark'
 
@@ -13,7 +14,7 @@ vim.g.tokyonight_italic_variables = true
 vim.g.tokyonight_dark_sidebar = true
 vim.g.tokyonight_dark_float = true
 
-vim.cmd[[ colo tokyonight ]]
+cmd[[ colo tokyonight ]]
 --]]
 
 
@@ -33,4 +34,4 @@ require("onedark").setup({
 
 
 
-vim.cmd[[ colo dracula ]]
+cmd[[ colo dracula ]]
