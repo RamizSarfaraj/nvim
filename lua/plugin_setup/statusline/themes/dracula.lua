@@ -4,9 +4,9 @@ local color = {
   end_color = "#50FA7B",
   mode_color = "#FF79C6",
   lightbg = "#504945",
-  left_most = "#8BE9FD",
+  left_most = "#d6acff",
   error_color = "#cc241d",
-  git_color = "#6272A4",
+  git_color = "#d6acff",
 }
 
 return color
