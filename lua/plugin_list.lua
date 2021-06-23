@@ -61,8 +61,6 @@ return require("packer").startup(
   use {'godlygeek/tabular'}
   use {'plasticboy/vim-markdown'}
 
-  --floaterm
-  use {'voldikss/vim-floaterm'}
 
 
   use {'glepnir/dashboard-nvim'}
