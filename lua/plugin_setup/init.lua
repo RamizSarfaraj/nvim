@@ -3,9 +3,6 @@ require[[plugin_setup.dashboard]]
 -- commenter
 require[[plugin_setup.commenter]]
 
--- floating terminal
-require[[plugin_setup.floaTerm]]
-
 -- markdown setup
 require[[plugin_setup.markdown]]
 
