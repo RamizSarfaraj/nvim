@@ -46,7 +46,7 @@ g.dashboard_custom_header = {
 "    od:::,Odooc:'.      .';:co:xoc::do    ",
 "    .:c:kddo:,'',,cxcxolx,'',:ddldo::.    ",
 "    o,:xOd:;  ,;cOx0k0OOK:;,  ;:lko:,l    ",
-"     ':,,;:.   ;kkkkxdoxkkkk;   .::,,:,   ",
+"    .':,,;:.   ;kkkkxdoxkkkk;   .::,,:,   ",
 "  .,::c..     :Kxcdx;;xdddX:     ..cc:,.  ",
 " 'oOdOo:      :XOO,d;;ll:OX:      :dOxxl' ",
 " .dkoXl,      :XXX;x,,:l;KX:      ,xkdOc. ",
