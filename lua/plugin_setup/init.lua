@@ -34,7 +34,7 @@ require[[plugin_setup.colori-zer]]
 require[[plugin_setup.indentline]]
 
 -- zenmode and which key
-require[[plugin_setup.zenmode]]
+-- require[[plugin_setup.zenmode]]
 require[[plugin_setup.whichkey]]
 
 
