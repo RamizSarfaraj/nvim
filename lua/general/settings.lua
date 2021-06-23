@@ -1,4 +1,3 @@
-local utils = require("utils")
 local cmd = vim.cmd
 
 cmd("syntax on")
@@ -15,7 +14,7 @@ vim.o.autoread = true
 vim.o.updatetime = 300
 vim.o.cmdheight = 1
 vim.o.splitright = true
-vim.o.splitbelow = false
+vim.o.splitbelow = true
 vim.o.backspace = "indent,eol,start"
 vim.o.shortmess = vim.o.shortmess .. "c"
 vim.o.hidden = true

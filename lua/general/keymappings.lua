@@ -21,13 +21,19 @@ map("n", "<M-l>", "<C-W>l")
 
 --yank utilMthe end of line
 map('n', 'Y', 'y$', { noremap = true })
+map('n', '<C-a>',[[ <cmd> %y+<CR> ]], { noremap = true })
 -- split
 map("n", "|", ":vsp<CR>")
 map("n", "-", ":sp<CR>")
 
+--terminal
+map("n", "<leader>tt", [[<cmd> vsp term://zsh | vertical resize 45 <cr>]])
+map("n", "<leader>ts", [[<cmd> split term://zsh | resize 10 <CR>]])
+map("n", "<leader>tn", [[<cmd> tabnew | term <CR>]])
+
 -- resize split window
-map("n", "<C-right>", ":vertical resize +2<CR>")
-map("n", "<C-left>", ":vertical resize -2<CR>")
+map("n", "<C-left>", ":vertical resize +2<CR>")
+map("n", "<C-right>", ":vertical resize -2<CR>")
 map("n", "<C-up>", ":resize +2<CR>")
 map("n", "<C-down>", ":resize -2<CR>")
 
