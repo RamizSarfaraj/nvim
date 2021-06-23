@@ -1,5 +1,11 @@
 -- hashboard
 require[[plugin_setup.dashboard]]
+
+-- lsp
+require[[plugin_setup.nvim-lspconfig]]
+require[[plugin_setup.compe-completion]]
+require[[plugin_setup.nvim-lspkind]]
+
 -- commenter
 require[[plugin_setup.commenter]]
 
@@ -36,8 +42,3 @@ require[[plugin_setup.whichkey]]
 
 
 require[[plugin_setup.gitsign]]
-
--- lsp
-require[[plugin_setup.nvim-lspconfig]]
-require[[plugin_setup.compe-completion]]
-require[[plugin_setup.nvim-lspkind]]
