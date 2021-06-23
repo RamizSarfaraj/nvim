@@ -35,7 +35,7 @@ vim.wo.relativenumber = true
 vim.wo.wrap = false
 vim.wo.numberwidth = 2
 vim.wo.cursorline = true
-vim.wo.cursorcolumn = true
+vim.wo.cursorcolumn = false
 
 vim.cmd[[set ts=2 sw=2 sts=2 et]]
 vim.bo.smartindent = true

@@ -26,7 +26,6 @@ return require("packer").startup(
   use {'kabouzeid/nvim-lspinstall'}
   use {"onsails/lspkind-nvim"}
   use {'hrsh7th/nvim-compe'}
-  use {'folke/lsp-colors.nvim'}
   -- snippet support
   use "hrsh7th/vim-vsnip"
   use "rafamadriz/friendly-snippets"
