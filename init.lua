@@ -10,3 +10,4 @@ require[[general]]
 --
 require[[plugin_setup]]
 
+vim.cmd[[ hi Normal guibg=NONE ctermbg=NONE ]] -- make colorscheme transparent
