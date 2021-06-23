@@ -43,3 +43,4 @@ require[[plugin_setup.gitsign]]
 -- lsp
 require[[plugin_setup.nvim-lspconfig]]
 require[[plugin_setup.compe-completion]]
+require[[plugin_setup.nvim-lspkind]]

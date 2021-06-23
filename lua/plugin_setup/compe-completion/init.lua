@@ -16,12 +16,11 @@ require("compe").setup {
   max_menu_width = 100,
   documentation = true,
   source = {
-    buffer = {kind = "   (Buffer)"},
+    buffer = {kind = "  Buffer)"},
     vsnip = {kind = "   (Snippet)"},
     nvim_lsp = {kind = "   (LSP)"},
     nvim_lua = true,
     tags = false,
-    vim_dadbod_completion = true,
     emoji = {kind = " ﲃ  (Emoji)", filetypes = {"markdown", "text"}}
   }
 }
@@ -43,16 +42,15 @@ end
 --- move to prev/next item in completion menuone
 --- jump to prev/next snippet's placeholder
 _G.tab_complete = function()
-  if vim.fn.pumvisible() == 1 then
-    return t "<C-n>"
-  elseif vim.fn.call("vsnip#available", {1}) == 1 then
-    return t "<Plug>(vsnip-expand-or-jump)"
-  elseif check_back_space() then
-    return t "<Tab>"
-  else
-    return vim.fn["compe#complete"]()
-  end
+    if vim.fn.pumvisible() == 1 then
+        return t "<C-n>"
+    elseif check_back_space() then
+        return t "<Tab>"
+    else
+        return vim.fn["compe#complete"]()
+    end
 end
+
 _G.s_tab_complete = function()
   if vim.fn.pumvisible() == 1 then
     return t "<C-p>"

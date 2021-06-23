@@ -27,7 +27,9 @@ return require("packer").startup(
   use {"onsails/lspkind-nvim"}
   use {'hrsh7th/nvim-compe'}
   use {'folke/lsp-colors.nvim'}
-
+  -- snippet support
+  use "hrsh7th/vim-vsnip"
+  use "rafamadriz/friendly-snippets"
 
   --auto open and close pairs
   use {'windwp/nvim-autopairs'}
@@ -35,9 +37,6 @@ return require("packer").startup(
   use {'terrortylor/nvim-comment'}
   --status lien
   use {'glepnir/galaxyline.nvim'}
-
-  --snippets
-  use {'honza/vim-snippets'}
 
 
   --telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
@@ -67,8 +66,6 @@ return require("packer").startup(
   use {'voldikss/vim-floaterm'}
 
 
-  --startify, keeps track of your recent opened
-  use {'mhinz/vim-startify'}
   use {'glepnir/dashboard-nvim'}
   -- indent backline
   use {"lukas-reineke/indent-blankline.nvim", branch = "lua"}
