@@ -2,7 +2,9 @@
 
 **Ultimate plan is to fully switch to lua configuration.**
 
-```clone
+**Requirement** : *nvim > 5.0*
+
+```
 git clone git@github.com:RamizSarfaraj/nvim.git ~/.config/nvim/
 ```
 
