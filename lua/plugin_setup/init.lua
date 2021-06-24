@@ -1,6 +1,5 @@
--- hashboard
-require[[plugin_setup.dashboard]]
-
+-- startify
+require[[plugin_setup.nvim-startify]]
 -- lsp
 require[[plugin_setup.nvim-lspconfig]]
 require[[plugin_setup.compe-completion]]

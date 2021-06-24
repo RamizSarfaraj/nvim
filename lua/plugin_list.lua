@@ -63,7 +63,8 @@ return require("packer").startup(
 
 
 
-  use {'glepnir/dashboard-nvim'}
+  -- startify
+  use {'mhinz/vim-startify'}
   -- indent backline
   use {"lukas-reineke/indent-blankline.nvim", branch = "lua"}
 
