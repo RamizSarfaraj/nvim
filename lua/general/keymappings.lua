@@ -27,8 +27,8 @@ map("n", "|", ":vsp<CR>")
 map("n", "-", ":sp<CR>")
 
 --terminal
-map("n", "<leader>tt", [[<cmd> vsp term://zsh | vertical resize 45 <cr>]])
-map("n", "<leader>ts", [[<cmd> split term://zsh | resize 10 <CR>]])
+map("n", "<leader>tv", [[<cmd> vsp term://zsh | vertical resize 45 <cr>]])
+map("n", "<leader>tt", [[<cmd> split term://zsh | resize 10 <CR>]])
 map("n", "<leader>tn", [[<cmd> tabnew | term <CR>]])
 
 -- resize split window
