@@ -63,4 +63,3 @@ map("n", "<leader>fo", "<cmd>lua require('telescope.builtin').oldfiles()<cr>")
 map("n", "<leader>gf", "<cmd>lua require('telescope.builtin').git_files()<cr>")
 
 map("n", "<Leader>fw", [[<Cmd> Telescope live_grep<CR>]])
-map("n", "<Leader>fn", [[<Cmd> DashboardNewFile<CR>]])
