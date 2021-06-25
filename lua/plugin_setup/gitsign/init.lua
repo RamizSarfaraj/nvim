@@ -25,5 +25,10 @@ require('gitsigns').setup {
       interval = 100
   },
   sign_priority = 5,
-  status_formatter = nil -- Use default
+  status_formatter = nil, -- Use default
+  current_line_blame = false,
+  current_line_blame_delay = 1000,
+  use_decoration_api = true,
+  use_internal_diff = true,
+
 }
