@@ -1,6 +1,4 @@
-# neovim configuration folder.
-
-**Ultimate plan is to fully switch to lua configuration.**
+# NVIM CONFIG
 
 **Requirement** : *nvim > 5.0*
 
