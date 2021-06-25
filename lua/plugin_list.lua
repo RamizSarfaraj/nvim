@@ -36,7 +36,7 @@ return require("packer").startup(
   use {'terrortylor/nvim-comment'}
   --status lien
   use {'glepnir/galaxyline.nvim'}
-
+  use {'easymotion/vim-easymotion'}
 
   --telescope [fuzzy file finder or alternate fzf with better colors] some more functionality.
   use {'nvim-lua/popup.nvim'}
