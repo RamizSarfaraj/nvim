@@ -57,12 +57,6 @@ return require("packer").startup(
   use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}
 
 
-  --markdown
-  use {'godlygeek/tabular'}
-  use {'plasticboy/vim-markdown'}
-
-
-
   -- startify
   use {'mhinz/vim-startify'}
   -- indent backline

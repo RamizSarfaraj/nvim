@@ -8,9 +8,6 @@ require[[plugin_setup.nvim-lspkind]]
 -- commenter
 require[[plugin_setup.commenter]]
 
--- markdown setup
-require[[plugin_setup.markdown]]
-
 -- nvim tree
 require[[plugin_setup.nvimTree]]
 require[[plugin_setup.file-icons]]
