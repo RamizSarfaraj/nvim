@@ -9,7 +9,7 @@ vim.g.mapleader = " "   -- space as leader
 map("i", "kj", "<Esc>") -- use kj to go normal mode
 map("v", "kj", "<Esc>") -- use kj to go normal mode
 
-map('n', '<C-s>', [[<cmd> w]]) -- save changes usuing ctrl+s
+map('n', '<C-s>', [[<cmd> w<cr>]]) -- save changes usuing ctrl+s
 
 -- Better split switching
 map("n", "<M-j>", "<C-W>j")
