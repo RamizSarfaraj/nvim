@@ -30,12 +30,12 @@ local map = utils.keymap
 
 
 -- MAPPINGS
-map("n", "<S-t>", [[<Cmd>tabnew<CR>]], opt) -- new tab
-map("n", "<S-x>", [[<Cmd>bdelete<CR>]], opt) -- close tab
+map("n", "<leader>n", [[<Cmd>tabnew<CR>]]) -- new tab
+map("n", "<leader>x", [[<Cmd>bdelete<CR>]]) -- close tab
 
 -- move between tabs
-map("n", "<TAB>", [[<Cmd>BufferLineCycleNext<CR>]], opt)
-map("n", "<S-TAB>", [[<Cmd>BufferLineCyclePrev<CR>]], opt)
+map("n", "<TAB>", [[<Cmd>BufferLineCycleNext<CR>]])
+map("n", "<S-TAB>", [[<Cmd>BufferLineCyclePrev<CR>]])
 
 map("n", "bd", "<cmd> BufferLineSortByDirectory<CR>")
 map("n", "be", "<cmd> BufferLineSortByExtension<CR>")
