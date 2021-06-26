@@ -76,13 +76,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/TrueZen.nvim"
   },
-  ["dashboard-nvim"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/dashboard-nvim"
-  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/dracula.nvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/friendly-snippets"
   },
   ["galaxyline.nvim"] = {
     loaded = true,
@@ -99,10 +99,6 @@ _G.packer_plugins = {
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
-  },
-  ["lsp-colors.nvim"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/lsp-colors.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -164,10 +160,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
-  tabular = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/tabular"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/telescope.nvim"
@@ -176,21 +168,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/tokyonight.nvim"
   },
-  ["vim-floaterm"] = {
+  ["vim-easymotion"] = {
     loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/vim-floaterm"
-  },
-  ["vim-markdown"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/vim-markdown"
-  },
-  ["vim-snippets"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/vim-snippets"
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/vim-easymotion"
   },
   ["vim-startify"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/vim-startify"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   },
   ["which-key.nvim"] = {
     loaded = true,
