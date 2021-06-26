@@ -18,7 +18,7 @@ cmd[[ colo tokyonight ]]
 --]]
 
 
---[[
+-- --[[
 require("onedark").setup({
   commentStyle = "italic",
   keywordStyle = "italic",
@@ -30,8 +30,8 @@ require("onedark").setup({
   darkFloat = true,
   colors = {hint = "orange", error = "#ff0000"}
 })
---]]
+-- --]]
 
 
 
-cmd[[ colo dracula ]]
+-- cmd[[ colo dracula ]]
