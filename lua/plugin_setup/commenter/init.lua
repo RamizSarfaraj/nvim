@@ -8,7 +8,7 @@ require('nvim_comment').setup({
     -- Should key mappings be created
     create_mappings = true,
     -- Normal mode mapping left hand side
-    line_mapping = "<C-/>",
+    line_mapping = "gcc",
     -- Visual/Operator mapping left hand side
-    operator_mapping = "<C-/>"
+    operator_mapping = "gc"
 })
