@@ -58,9 +58,6 @@ return require("packer").startup(
   --Treesitter
   use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}
 
-  ---orgmode
-  use {'kristijanhusak/orgmode.nvim'}
-
   -- startify
   use {'mhinz/vim-startify'}
   -- indent backline
