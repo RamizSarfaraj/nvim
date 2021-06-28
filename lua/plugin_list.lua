@@ -47,12 +47,8 @@ return require("packer").startup(
   use {'nvim-telescope/telescope.nvim'}
 
 
-  --vim colorscheme ( more than one and that's how I like it.)
-  use {'gruvbox-community/gruvbox'}
-  use {'ful1e5/onedark.nvim'}
-  use {'Mofiqul/dracula.nvim'}
-  use {'folke/tokyonight.nvim'}
-
+  --vim colorscheme.
+  use {'RRethy/nvim-base16'}
   --colorizer
   use {'norcalli/nvim-colorizer.lua'}
 
