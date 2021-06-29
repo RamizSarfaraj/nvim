@@ -27,8 +27,7 @@ return require("packer").startup(
   use {'neovim/nvim-lspconfig'}
   use {'kabouzeid/nvim-lspinstall'}
   use {"onsails/lspkind-nvim"}
-  -- use {'hrsh7th/nvim-compe'}
-  use {'neoclide/coc.nvim', branch= 'release'}
+  use {'hrsh7th/nvim-compe'}
   -- snippet support
   use "hrsh7th/vim-vsnip"
   use "rafamadriz/friendly-snippets"
