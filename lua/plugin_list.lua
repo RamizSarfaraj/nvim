@@ -45,7 +45,7 @@ return require("packer").startup(
   use {'nvim-lua/plenary.nvim'}
   use {'nvim-telescope/telescope.nvim'}
 
-
+    --
   --vim colorscheme.
   use {'RRethy/nvim-base16'}
   --colorizer
