@@ -19,6 +19,7 @@ require'compe'.setup {
     buffer = {kind = "   (Buffer)"},
     calc = {kind = "   (Calc)"},
     vsnip = {kind = "   (Snippet)"},
+    luasnip = {kind = "   (Snippet)"},
     nvim_lsp = {kind = "   (LSP)"},
     nvim_lua = false,
     spell = {kind = "   (Spell)"},

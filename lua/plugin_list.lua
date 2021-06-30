@@ -19,6 +19,10 @@ return require("packer").startup(
   use {'kyazdani42/nvim-tree.lua'}
   use {'akinsho/nvim-bufferline.lua'}
   use {'kyazdani42/nvim-web-devicons'}
+  use {
+    'yamatsum/nvim-nonicons',
+    requires = {'kyazdani42/nvim-web-devicons'}
+  }
   use {'lewis6991/gitsigns.nvim'}
   use { 'TimUntersberger/neogit'}
   use {'sindrets/diffview.nvim'}
@@ -31,7 +35,7 @@ return require("packer").startup(
   -- snippet support
   use "hrsh7th/vim-vsnip"
   use "rafamadriz/friendly-snippets"
-
+  use {'L3MON4D3/LuaSnip'}
   --auto open and close pairs
   use {'windwp/nvim-autopairs'}
   --better commenting
