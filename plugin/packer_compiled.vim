@@ -104,13 +104,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/neogit"
   },
+  ["nvcode-color-schemes.vim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
-  },
-  ["nvim-base16"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-base16"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
