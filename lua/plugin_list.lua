@@ -47,7 +47,7 @@ return require("packer").startup(
 
     --
   --vim colorscheme.
-  use {'RRethy/nvim-base16'}
+  use {'christianchiarulli/nvcode-color-schemes.vim'}
   --colorizer
   use {'norcalli/nvim-colorizer.lua'}
 
