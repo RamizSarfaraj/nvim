@@ -36,10 +36,11 @@ vim.wo.numberwidth = 2
 vim.wo.cursorline = true
 vim.wo.cursorcolumn = false
 
-cmd[[set ts=2 sw=2 sts=2 et]]
+cmd[[set ts=4 sw=4 sts=4 et]]
 vim.bo.smartindent = true
 
 -- file extension specific tabbing
+cmd[[autocmd Filetype html,css setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2]]
 cmd[[autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4]]
 
 cmd[[
