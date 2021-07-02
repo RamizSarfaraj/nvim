@@ -1,5 +1,5 @@
 local gl = require('galaxyline')
-
+--[[
 local colors = {
     -- bg = '#2E2E2E',
     bg = '#292D38',
@@ -20,6 +20,9 @@ local colors = {
     error_red = '#F44747',
     info_yellow = '#FFCC66'
 }
+--]]
+
+local colors = require[[plugin_setup.statusline.themes.snazzy]]
 
 
 local condition = require('galaxyline.condition')
