@@ -14,7 +14,7 @@ require('bufferline').setup {
     max_prefix_length = 15, -- prefix used when a buffer is de-duplicated
     tab_size = 18,
 
-    offsets = {{filetype = "NvimTree", text = "File Explorer", text_align = --[["left" | "center" |]] "right"}},
+    offsets = {{filetype = "NvimTree", text = "File Explorer", text_align = "left" --[[| "center" | "right"]]}},
     show_buffer_icons = true,
     show_buffer_close_icons = true,
     show_close_icon = true,
