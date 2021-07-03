@@ -140,10 +140,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
   },
-  ["nvim-nonicons"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-nonicons"
-  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
