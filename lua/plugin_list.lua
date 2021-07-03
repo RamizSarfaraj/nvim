@@ -19,10 +19,7 @@ return require("packer").startup(
   use {'kyazdani42/nvim-tree.lua'}
   use {'akinsho/nvim-bufferline.lua'}
   use {'kyazdani42/nvim-web-devicons'}
-  use {
-    'yamatsum/nvim-nonicons',
-    requires = {'kyazdani42/nvim-web-devicons'}
-  }
+
   use {'lewis6991/gitsigns.nvim'}
   use { 'TimUntersberger/neogit'}
   use {'sindrets/diffview.nvim'}
