@@ -58,7 +58,7 @@ return require("packer").startup(
   -- startify
   use {'mhinz/vim-startify'}
   -- indent backline
-  use {"lukas-reineke/indent-blankline.nvim", branch = "lua"}
+  use {"lukas-reineke/indent-blankline.nvim"}
 
   -- zenmode and which key.
   use "kdav5758/TrueZen.nvim"
