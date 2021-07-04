@@ -24,6 +24,8 @@ map('n', '<C-a>',[[ <cmd> %y+<CR> ]], { noremap = true })
 map("n", "|", ":vsp<CR>")
 map("n", "-", ":sp<CR>")
 
+map("n", "<leader>h", [[<cmd>noh<CR>]], {noremap = true, silent = true}) -- remove highlight while search results
+
 --terminal
 map("n", "<leader>tv", [[<cmd> vsp term://zsh | vertical resize 45 <cr>]])
 map("n", "<leader>tt", [[<cmd> split term://zsh | resize 10 <CR>]])
