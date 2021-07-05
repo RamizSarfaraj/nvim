@@ -97,13 +97,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
   },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/lazygit.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
-  },
-  neogit = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/neogit"
   },
   ["nvcode-color-schemes.vim"] = {
     loaded = true,

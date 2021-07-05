@@ -38,5 +38,5 @@ require[[plugin_setup.whichkey]]
 
 
 require[[plugin_setup.gitsign]]
-require[[plugin_setup.diff-neo-git]]
-
+require[[plugin_setup.lazygit-nvim]]
+-- require[[plugin_setup.diff-neo-git]]
