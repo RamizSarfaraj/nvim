@@ -77,10 +77,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/TrueZen.nvim"
   },
-  ["diffview.nvim"] = {
-    loaded = true,
-    path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/diffview.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/ramiz/.local/share/nvim/site/pack/packer/start/friendly-snippets"
