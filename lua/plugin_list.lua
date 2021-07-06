@@ -22,7 +22,6 @@ return require("packer").startup(
 
   use {'lewis6991/gitsigns.nvim'}
   use {'kdheepak/lazygit.nvim'}
-  use {'sindrets/diffview.nvim'}
 
   -- Native LSP
   use {'neovim/nvim-lspconfig'}
