@@ -1,4 +1,4 @@
-local colors = require("plugin_setup.statusline.themes.tokyonight")
+local colors = require("plugin_setup.statusline.themes.snazzy")
 
 
 require "nvim-web-devicons".setup {
